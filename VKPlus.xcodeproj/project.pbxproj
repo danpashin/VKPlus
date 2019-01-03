@@ -1,0 +1,1526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BFE4EBD2FD3A9B961CE5856 /* libPods-VKPlusPrefs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 153DCAE077531AC61233915D /* libPods-VKPlusPrefs.a */; };
+		A529D03E2122F299005F4B5B /* VKParamsOtherPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A529D03C2122F299005F4B5B /* VKParamsOtherPrefs.h */; };
+		A529D03F2122F299005F4B5B /* VKParamsOtherPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A529D03D2122F299005F4B5B /* VKParamsOtherPrefs.m */; };
+		A531B12D213BB8F000D45222 /* VKPlusImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34ED921357D3F00960FF7 /* VKPlusImageCache.m */; };
+		A531B12E213BD28400D45222 /* VKParamsUserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A559E374211EE68D00854784 /* VKParamsUserPrefs.m */; };
+		A53D50E5211E1D29001A0912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53D50E4211E1D29001A0912 /* Foundation.framework */; };
+		A53D5111211E2CF5001A0912 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53D5110211E2CF5001A0912 /* Preferences.framework */; };
+		A53E5D6221254D2A00220D92 /* VKParamsTabbarPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A53E5D6021254D2A00220D92 /* VKParamsTabbarPrefs.h */; };
+		A53E5D6321254D2A00220D92 /* VKParamsTabbarPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E5D6121254D2A00220D92 /* VKParamsTabbarPrefs.m */; };
+		A540F3232141364D00FF5779 /* VKPlusAvatarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A540F3212141364D00FF5779 /* VKPlusAvatarButton.h */; };
+		A540F3242141364D00FF5779 /* VKPlusAvatarButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A540F3212141364D00FF5779 /* VKPlusAvatarButton.h */; };
+		A540F3252141364D00FF5779 /* VKPlusAvatarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A540F3222141364D00FF5779 /* VKPlusAvatarButton.m */; };
+		A540F3262141364D00FF5779 /* VKPlusAvatarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A540F3222141364D00FF5779 /* VKPlusAvatarButton.m */; };
+		A540F32B2141387800FF5779 /* VKPlusUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A540F3292141387800FF5779 /* VKPlusUserModel.h */; };
+		A540F32C2141387800FF5779 /* VKPlusUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A540F3292141387800FF5779 /* VKPlusUserModel.h */; };
+		A540F32D2141387800FF5779 /* VKPlusUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A540F32A2141387800FF5779 /* VKPlusUserModel.m */; };
+		A540F32E2141387800FF5779 /* VKPlusUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A540F32A2141387800FF5779 /* VKPlusUserModel.m */; };
+		A540F337214138E300FF5779 /* VKPlusNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A540F335214138E300FF5779 /* VKPlusNetwork.h */; };
+		A540F338214138E300FF5779 /* VKPlusNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A540F335214138E300FF5779 /* VKPlusNetwork.h */; };
+		A540F339214138E300FF5779 /* VKPlusNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = A540F336214138E300FF5779 /* VKPlusNetwork.m */; };
+		A540F33A214138E300FF5779 /* VKPlusNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = A540F336214138E300FF5779 /* VKPlusNetwork.m */; };
+		A54DA536212C04BA00750032 /* VKParamsModernNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A54DA532212C04BA00750032 /* VKParamsModernNetwork.h */; };
+		A54DA537212C04BA00750032 /* VKParamsModernNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DA535212C04BA00750032 /* VKParamsModernNetwork.m */; };
+		A559E36E211ED80800854784 /* ColoredVKSwiftMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = A559E36A211ED80700854784 /* ColoredVKSwiftMenuController.h */; };
+		A559E36F211ED80800854784 /* PSTableCellHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A559E36B211ED80700854784 /* PSTableCellHook.m */; };
+		A559E370211ED80800854784 /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = A559E36C211ED80700854784 /* PrefixHeader.pch */; };
+		A559E371211ED80800854784 /* ColoredVKSwiftMenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A559E36D211ED80700854784 /* ColoredVKSwiftMenuButton.h */; };
+		A5680A8721274C3C00B2C802 /* VKParamsPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AB0115212049C200874580 /* VKParamsPreferences.m */; };
+		A5680A8821274C3C00B2C802 /* VKParamsMainPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE5AD2121DD8A005BB609 /* VKParamsMainPreferences.m */; };
+		A5680A8921274C3C00B2C802 /* VKParamsFeedPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE59B2121CAE4005BB609 /* VKParamsFeedPrefs.m */; };
+		A5680A8B21274C3C00B2C802 /* VKParamsMessagesPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE38502122C74700D5C8B6 /* VKParamsMessagesPrefs.m */; };
+		A5680A8C21274C3C00B2C802 /* VKParamsOtherPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A529D03D2122F299005F4B5B /* VKParamsOtherPrefs.m */; };
+		A5680A8D21274C3C00B2C802 /* VKParamsTabbarPrefsContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4B5A72125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m */; };
+		A5680A8E21274C3C00B2C802 /* VKParamsTabbarPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E5D6121254D2A00220D92 /* VKParamsTabbarPrefs.m */; };
+		A5680A8F21274C3C00B2C802 /* VKParamsSwitchPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE38542122E98200D5C8B6 /* VKParamsSwitchPrefsCell.m */; };
+		A5680A9021274C4C00B2C802 /* VKParamsTabbarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5818A7421245B7700294F13 /* VKParamsTabbarModel.m */; };
+		A5680A9421274D9C00B2C802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53D50E4211E1D29001A0912 /* Foundation.framework */; };
+		A5680A9521274DA100B2C802 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53D5110211E2CF5001A0912 /* Preferences.framework */; };
+		A5680A9621274FD600B2C802 /* PSTableCellHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A559E36B211ED80700854784 /* PSTableCellHook.m */; };
+		A56C821621611A3D003092A6 /* VKPlusPrefsTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = A56C821421611A3D003092A6 /* VKPlusPrefsTableView.h */; };
+		A56C821721611A3D003092A6 /* VKPlusPrefsTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = A56C821421611A3D003092A6 /* VKPlusPrefsTableView.h */; };
+		A56C821821611A3D003092A6 /* VKPlusPrefsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56C821521611A3D003092A6 /* VKPlusPrefsTableView.m */; };
+		A56C821921611A3D003092A6 /* VKPlusPrefsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56C821521611A3D003092A6 /* VKPlusPrefsTableView.m */; };
+		A56C821A21611A3D003092A6 /* VKPlusPrefsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A56C821521611A3D003092A6 /* VKPlusPrefsTableView.m */; };
+		A5818A7521245B7700294F13 /* VKParamsTabbarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A5818A7321245B7700294F13 /* VKParamsTabbarModel.h */; };
+		A5818A7621245B7700294F13 /* VKParamsTabbarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5818A7421245B7700294F13 /* VKParamsTabbarModel.m */; };
+		A582CD6E21612C450047649B /* UITableViewCell+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A582CD6C21612C450047649B /* UITableViewCell+VKPlus.h */; };
+		A582CD6F21612C450047649B /* UITableViewCell+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A582CD6C21612C450047649B /* UITableViewCell+VKPlus.h */; };
+		A582CD7021612C450047649B /* UITableViewCell+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A582CD6D21612C450047649B /* UITableViewCell+VKPlus.m */; };
+		A582CD7121612C450047649B /* UITableViewCell+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A582CD6D21612C450047649B /* UITableViewCell+VKPlus.m */; };
+		A58B54E6212D681600B9D644 /* VKParamsTextPrefsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B54E4212D681600B9D644 /* VKParamsTextPrefsCell.h */; };
+		A58B54E7212D681600B9D644 /* VKParamsTextPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54E5212D681600B9D644 /* VKParamsTextPrefsCell.m */; };
+		A58B54EA212D68C900B9D644 /* VKParamsTextPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54E5212D681600B9D644 /* VKParamsTextPrefsCell.m */; };
+		A58B54ED212D877B00B9D644 /* VKParamsProxyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B54EB212D877B00B9D644 /* VKParamsProxyModel.h */; };
+		A58B54EE212D877C00B9D644 /* VKParamsProxyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54EC212D877B00B9D644 /* VKParamsProxyModel.m */; };
+		A58B54EF212D8B0700B9D644 /* VKParamsProxyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54EC212D877B00B9D644 /* VKParamsProxyModel.m */; };
+		A58B54F6212D9D6500B9D644 /* VKParamsNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B54F4212D9D6500B9D644 /* VKParamsNavigationController.h */; };
+		A58B54F7212D9D6500B9D644 /* VKParamsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */; };
+		A58B54F8212DA0DC00B9D644 /* VKParamsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */; };
+		A59B6487215F9DFD00E13DAC /* UITabBarItem+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A59B6485215F9DFD00E13DAC /* UITabBarItem+VKPlus.h */; };
+		A59B6488215F9DFD00E13DAC /* UITabBarItem+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A59B6485215F9DFD00E13DAC /* UITabBarItem+VKPlus.h */; };
+		A59B6489215F9DFD00E13DAC /* UITabBarItem+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A59B6486215F9DFD00E13DAC /* UITabBarItem+VKPlus.m */; };
+		A59B648A215F9DFD00E13DAC /* UITabBarItem+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A59B6486215F9DFD00E13DAC /* UITabBarItem+VKPlus.m */; };
+		A59CC859212DB2000076D328 /* VKParamsProxyPrefsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A59CC857212DB2000076D328 /* VKParamsProxyPrefsCell.h */; };
+		A59CC85A212DB2000076D328 /* VKParamsProxyPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A59CC858212DB2000076D328 /* VKParamsProxyPrefsCell.m */; };
+		A59CC85D212DB31C0076D328 /* VKParamsProxyPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A59CC858212DB2000076D328 /* VKParamsProxyPrefsCell.m */; };
+		A5A6BE6621289D3A0097440A /* VKParamsTabbarModel+AutomaticCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6BE6421289D3A0097440A /* VKParamsTabbarModel+AutomaticCreation.m */; };
+		A5A6BE6721289D3D0097440A /* VKParamsTabbarModel+AutomaticCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6BE6421289D3A0097440A /* VKParamsTabbarModel+AutomaticCreation.m */; };
+		A5AB0116212049C200874580 /* VKParamsPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AB0114212049C200874580 /* VKParamsPreferences.h */; };
+		A5AB0117212049C200874580 /* VKParamsPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AB0115212049C200874580 /* VKParamsPreferences.m */; };
+		A5AC75AD212AEBAA00441CDD /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AC75AC212AEB4100441CDD /* AFNetworking.h */; };
+		A5AC75C7212B2D9C00441CDD /* libSCPreferences.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AC75C6212B2D9000441CDD /* libSCPreferences.a */; };
+		A5AC75C8212B2DA200441CDD /* libSCPreferences.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AC75C6212B2D9000441CDD /* libSCPreferences.a */; };
+		A5B8AA2C213545C5000B5223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CA594321274B5800CDAD18 /* Assets.xcassets */; };
+		A5B8AA5D21354A85000B5223 /* VKParamsProxyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54EC212D877B00B9D644 /* VKParamsProxyModel.m */; };
+		A5B8AA5E21354A85000B5223 /* VKParamsMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE384D2122C45400D5C8B6 /* VKParamsMessages.m */; };
+		A5B8AA5F21354A85000B5223 /* VKParamsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE5A42121D359005BB609 /* VKParamsFeed.m */; };
+		A5B8AA6021354A85000B5223 /* SCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02489212FDA800094502D /* SCParser.m */; };
+		A5B8AA6121354A85000B5223 /* VKParamsTabbarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5818A7421245B7700294F13 /* VKParamsTabbarModel.m */; };
+		A5B8AA6221354A85000B5223 /* PSTableCellHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A559E36B211ED80700854784 /* PSTableCellHook.m */; };
+		A5B8AA6321354A85000B5223 /* VKParamsProxyEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05ADE212C70B100CDD7BF /* VKParamsProxyEditController.m */; };
+		A5B8AA6421354A85000B5223 /* VKParamsModernNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = A54DA535212C04BA00750032 /* VKParamsModernNetwork.m */; };
+		A5B8AA6521354A85000B5223 /* VKParamsTabbarPrefsContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4B5A72125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m */; };
+		A5B8AA6621354A85000B5223 /* VKParamsMainPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE5AD2121DD8A005BB609 /* VKParamsMainPreferences.m */; };
+		A5B8AA6721354A85000B5223 /* VKParamsImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AE8212C8B4C00CDD7BF /* VKParamsImages.m */; };
+		A5B8AA6821354A85000B5223 /* VKParamsFeedPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE59B2121CAE4005BB609 /* VKParamsFeedPrefs.m */; };
+		A5B8AA6921354A85000B5223 /* VKParamsNews.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE5A62121D74F005BB609 /* VKParamsNews.m */; };
+		A5B8AA6A21354A85000B5223 /* VKParamsSwitchPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE38542122E98200D5C8B6 /* VKParamsSwitchPrefsCell.m */; };
+		A5B8AA6B21354A85000B5223 /* VKParamsProxyPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A59CC858212DB2000076D328 /* VKParamsProxyPrefsCell.m */; };
+		A5B8AA6D21354A85000B5223 /* VKParamsTabbarPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E5D6121254D2A00220D92 /* VKParamsTabbarPrefs.m */; };
+		A5B8AA6E21354A85000B5223 /* VKParamsHostPinger.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02497212FE16D0094502D /* VKParamsHostPinger.m */; };
+		A5B8AA6F21354A85000B5223 /* VKParamsTickView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AEE212C956100CDD7BF /* VKParamsTickView.m */; };
+		A5B8AA7021354A85000B5223 /* VKParamsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */; };
+		A5B8AA7121354A85000B5223 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02486212FDA780094502D /* SimplePing.m */; };
+		A5B8AA7221354A85000B5223 /* VKParamsButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AD9212C5B1300CDD7BF /* VKParamsButtonCell.m */; };
+		A5B8AA7321354A85000B5223 /* VKParamsTextPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54E5212D681600B9D644 /* VKParamsTextPrefsCell.m */; };
+		A5B8AA7521354A85000B5223 /* VKParamsTabbarModel+AutomaticCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A6BE6421289D3A0097440A /* VKParamsTabbarModel+AutomaticCreation.m */; };
+		A5B8AA7621354A85000B5223 /* VKParamsProxyPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05ACE212C51D100CDD7BF /* VKParamsProxyPrefs.m */; };
+		A5B8AA7721354A85000B5223 /* VKParamsFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AB011821204A9400874580 /* VKParamsFunctions.m */; };
+		A5B8AA7821354A85000B5223 /* VKParamsMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D50E7211E1D29001A0912 /* VKParamsMain.m */; };
+		A5B8AA7921354A85000B5223 /* VKParamsPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AB0115212049C200874580 /* VKParamsPreferences.m */; };
+		A5B8AA7A21354A85000B5223 /* VKParamsTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5818A702124431A00294F13 /* VKParamsTabbar.m */; };
+		A5B8AA7B21354A85000B5223 /* VKParamsSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AE3212C8A9400CDD7BF /* VKParamsSelectionCell.m */; };
+		A5B8AA7C21354A85000B5223 /* VKParamsOtherPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A529D03D2122F299005F4B5B /* VKParamsOtherPrefs.m */; };
+		A5B8AA7D21354A85000B5223 /* VKParamsMessagesPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE38502122C74700D5C8B6 /* VKParamsMessagesPrefs.m */; };
+		A5B8AA7F21354A85000B5223 /* libSCPreferences.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5AC75C6212B2D9000441CDD /* libSCPreferences.a */; };
+		A5B8AA8021354A85000B5223 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53D50E4211E1D29001A0912 /* Foundation.framework */; };
+		A5B8AA8121354A85000B5223 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A53D5110211E2CF5001A0912 /* Preferences.framework */; };
+		A5B8AA8321354A85000B5223 /* VKParamsProxyEditController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05ADD212C70B100CDD7BF /* VKParamsProxyEditController.h */; };
+		A5B8AA8421354A85000B5223 /* VKParamsProxyPrefsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A59CC857212DB2000076D328 /* VKParamsProxyPrefsCell.h */; };
+		A5B8AA8521354A85000B5223 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F02483212FDA780094502D /* SimplePing.h */; };
+		A5B8AA8621354A85000B5223 /* VKParamsTabbarPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A53E5D6021254D2A00220D92 /* VKParamsTabbarPrefs.h */; };
+		A5B8AA8721354A85000B5223 /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = A559E36C211ED80700854784 /* PrefixHeader.pch */; };
+		A5B8AA8821354A85000B5223 /* VKParamsTabbarPrefsContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E4B5A62125C2AF0075CD14 /* VKParamsTabbarPrefsContext.h */; };
+		A5B8AA8921354A85000B5223 /* VKParamsProxyPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05ACD212C51D100CDD7BF /* VKParamsProxyPrefs.h */; };
+		A5B8AA8A21354A85000B5223 /* SCParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0248A212FDA800094502D /* SCParser.h */; };
+		A5B8AA8B21354A85000B5223 /* VKParamsTabbarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A5818A7321245B7700294F13 /* VKParamsTabbarModel.h */; };
+		A5B8AA8C21354A85000B5223 /* ColoredVKSwiftMenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A559E36D211ED80700854784 /* ColoredVKSwiftMenuButton.h */; };
+		A5B8AA8D21354A85000B5223 /* VKParamsMessagesPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE384F2122C74700D5C8B6 /* VKParamsMessagesPrefs.h */; };
+		A5B8AA8E21354A85000B5223 /* VKParamsModernNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = A54DA532212C04BA00750032 /* VKParamsModernNetwork.h */; };
+		A5B8AA8F21354A85000B5223 /* VKParamsTextPrefsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B54E4212D681600B9D644 /* VKParamsTextPrefsCell.h */; };
+		A5B8AA9021354A85000B5223 /* VKParamsPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AB0114212049C200874580 /* VKParamsPreferences.h */; };
+		A5B8AA9121354A85000B5223 /* ColoredVKSwiftMenuController.h in Headers */ = {isa = PBXBuildFile; fileRef = A559E36A211ED80700854784 /* ColoredVKSwiftMenuController.h */; };
+		A5B8AA9221354A85000B5223 /* VKParamsFeedPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FAE59A2121CAE4005BB609 /* VKParamsFeedPrefs.h */; };
+		A5B8AA9421354A85000B5223 /* VKParamsMainPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FAE5AC2121DD8A005BB609 /* VKParamsMainPreferences.h */; };
+		A5B8AA9521354A85000B5223 /* VKParamsTickView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AED212C956100CDD7BF /* VKParamsTickView.h */; };
+		A5B8AA9621354A85000B5223 /* VKParamsSwitchPrefsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE38532122E98200D5C8B6 /* VKParamsSwitchPrefsCell.h */; };
+		A5B8AA9721354A85000B5223 /* VKParamsProxyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B54EB212D877B00B9D644 /* VKParamsProxyModel.h */; };
+		A5B8AA9821354A85000B5223 /* VKParamsSelectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AE2212C8A9400CDD7BF /* VKParamsSelectionCell.h */; };
+		A5B8AA9921354A85000B5223 /* VKParamsHostPinger.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F02496212FE16D0094502D /* VKParamsHostPinger.h */; };
+		A5B8AA9A21354A85000B5223 /* VKParamsImages.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AE7212C8B4C00CDD7BF /* VKParamsImages.h */; };
+		A5B8AA9B21354A85000B5223 /* VKParamsNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B54F4212D9D6500B9D644 /* VKParamsNavigationController.h */; };
+		A5B8AA9C21354A85000B5223 /* VKParamsOtherPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A529D03C2122F299005F4B5B /* VKParamsOtherPrefs.h */; };
+		A5B8AA9D21354A85000B5223 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AC75AC212AEB4100441CDD /* AFNetworking.h */; };
+		A5B8AA9E21354A85000B5223 /* VKParamsButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AD8212C5B1300CDD7BF /* VKParamsButtonCell.h */; };
+		A5C05ACF212C51D100CDD7BF /* VKParamsProxyPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05ACD212C51D100CDD7BF /* VKParamsProxyPrefs.h */; };
+		A5C05AD0212C51D100CDD7BF /* VKParamsProxyPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05ACE212C51D100CDD7BF /* VKParamsProxyPrefs.m */; };
+		A5C05AD1212C520400CDD7BF /* VKParamsProxyPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05ACE212C51D100CDD7BF /* VKParamsProxyPrefs.m */; };
+		A5C05ADA212C5B1300CDD7BF /* VKParamsButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AD8212C5B1300CDD7BF /* VKParamsButtonCell.h */; };
+		A5C05ADB212C5B1300CDD7BF /* VKParamsButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AD9212C5B1300CDD7BF /* VKParamsButtonCell.m */; };
+		A5C05ADC212C5B1300CDD7BF /* VKParamsButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AD9212C5B1300CDD7BF /* VKParamsButtonCell.m */; };
+		A5C05ADF212C70B100CDD7BF /* VKParamsProxyEditController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05ADD212C70B100CDD7BF /* VKParamsProxyEditController.h */; };
+		A5C05AE0212C70B100CDD7BF /* VKParamsProxyEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05ADE212C70B100CDD7BF /* VKParamsProxyEditController.m */; };
+		A5C05AE1212C70B100CDD7BF /* VKParamsProxyEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05ADE212C70B100CDD7BF /* VKParamsProxyEditController.m */; };
+		A5C05AE4212C8A9400CDD7BF /* VKParamsSelectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AE2212C8A9400CDD7BF /* VKParamsSelectionCell.h */; };
+		A5C05AE5212C8A9400CDD7BF /* VKParamsSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AE3212C8A9400CDD7BF /* VKParamsSelectionCell.m */; };
+		A5C05AE6212C8A9400CDD7BF /* VKParamsSelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AE3212C8A9400CDD7BF /* VKParamsSelectionCell.m */; };
+		A5C05AE9212C8B4C00CDD7BF /* VKParamsImages.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AE7212C8B4C00CDD7BF /* VKParamsImages.h */; };
+		A5C05AEA212C8B4C00CDD7BF /* VKParamsImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AE8212C8B4C00CDD7BF /* VKParamsImages.m */; };
+		A5C05AEB212C8B4C00CDD7BF /* VKParamsImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AE8212C8B4C00CDD7BF /* VKParamsImages.m */; };
+		A5C05AEF212C956100CDD7BF /* VKParamsTickView.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AED212C956100CDD7BF /* VKParamsTickView.h */; };
+		A5C05AF0212C956100CDD7BF /* VKParamsTickView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AEE212C956100CDD7BF /* VKParamsTickView.m */; };
+		A5C05AF1212C956100CDD7BF /* VKParamsTickView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AEE212C956100CDD7BF /* VKParamsTickView.m */; };
+		A5CA593C21274B5600CDAD18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CA593B21274B5600CDAD18 /* AppDelegate.m */; };
+		A5CA594221274B5600CDAD18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA594021274B5600CDAD18 /* Main.storyboard */; };
+		A5CA594721274B5800CDAD18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA594521274B5800CDAD18 /* LaunchScreen.storyboard */; };
+		A5CA594A21274B5800CDAD18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CA594921274B5800CDAD18 /* main.m */; };
+		A5CEE9222154D78900927334 /* VKParamsTabbarModel+VKModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CEE91F2154D78900927334 /* VKParamsTabbarModel+VKModule.m */; };
+		A5CEE9232154D78900927334 /* VKParamsTabbarModel+VKModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CEE91F2154D78900927334 /* VKParamsTabbarModel+VKModule.m */; };
+		A5CEE9262154FD9300927334 /* VKPlusBlacklist.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CEE9242154FD9300927334 /* VKPlusBlacklist.h */; };
+		A5CEE9272154FD9300927334 /* VKPlusBlacklist.h in Headers */ = {isa = PBXBuildFile; fileRef = A5CEE9242154FD9300927334 /* VKPlusBlacklist.h */; };
+		A5CEE9282154FD9300927334 /* VKPlusBlacklist.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CEE9252154FD9300927334 /* VKPlusBlacklist.m */; };
+		A5CEE9292154FD9300927334 /* VKPlusBlacklist.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CEE9252154FD9300927334 /* VKPlusBlacklist.m */; };
+		A5D34EBD2135548600960FF7 /* NSBundle+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D34EBB2135548600960FF7 /* NSBundle+VKPlus.h */; };
+		A5D34EBE2135548600960FF7 /* NSBundle+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D34EBB2135548600960FF7 /* NSBundle+VKPlus.h */; };
+		A5D34EBF2135548600960FF7 /* NSBundle+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34EBC2135548600960FF7 /* NSBundle+VKPlus.m */; };
+		A5D34EC02135548600960FF7 /* NSBundle+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34EBC2135548600960FF7 /* NSBundle+VKPlus.m */; };
+		A5D34EC12135548600960FF7 /* NSBundle+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34EBC2135548600960FF7 /* NSBundle+VKPlus.m */; };
+		A5D34EC42135552A00960FF7 /* UIImage+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D34EC22135552A00960FF7 /* UIImage+VKPlus.h */; };
+		A5D34EC52135552A00960FF7 /* UIImage+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D34EC22135552A00960FF7 /* UIImage+VKPlus.h */; };
+		A5D34EC62135552A00960FF7 /* UIImage+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34EC32135552A00960FF7 /* UIImage+VKPlus.m */; };
+		A5D34EC72135552A00960FF7 /* UIImage+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34EC32135552A00960FF7 /* UIImage+VKPlus.m */; };
+		A5D34EC82135552A00960FF7 /* UIImage+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34EC32135552A00960FF7 /* UIImage+VKPlus.m */; };
+		A5D34ECB2135558800960FF7 /* NSUserDefaults+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D34EC92135558800960FF7 /* NSUserDefaults+VKPlus.h */; };
+		A5D34ECC2135558800960FF7 /* NSUserDefaults+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D34EC92135558800960FF7 /* NSUserDefaults+VKPlus.h */; };
+		A5D34ECD2135558800960FF7 /* NSUserDefaults+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34ECA2135558800960FF7 /* NSUserDefaults+VKPlus.m */; };
+		A5D34ECE2135558800960FF7 /* NSUserDefaults+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34ECA2135558800960FF7 /* NSUserDefaults+VKPlus.m */; };
+		A5D34ECF2135558800960FF7 /* NSUserDefaults+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34ECA2135558800960FF7 /* NSUserDefaults+VKPlus.m */; };
+		A5D34ED22135671D00960FF7 /* VKPlusAvatarProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D34ED02135671D00960FF7 /* VKPlusAvatarProcessor.h */; };
+		A5D34ED32135671D00960FF7 /* VKPlusAvatarProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D34ED02135671D00960FF7 /* VKPlusAvatarProcessor.h */; };
+		A5D34ED42135671D00960FF7 /* VKPlusAvatarProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34ED12135671D00960FF7 /* VKPlusAvatarProcessor.m */; };
+		A5D34ED62135671D00960FF7 /* VKPlusAvatarProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34ED12135671D00960FF7 /* VKPlusAvatarProcessor.m */; };
+		A5D34EDA21357D3F00960FF7 /* VKPlusImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D34ED821357D3F00960FF7 /* VKPlusImageCache.h */; };
+		A5D34EDB21357D3F00960FF7 /* VKPlusImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D34ED921357D3F00960FF7 /* VKPlusImageCache.m */; };
+		A5D9A354213D799900641792 /* VKPlusMusicPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D9A352213D799900641792 /* VKPlusMusicPrefs.h */; };
+		A5D9A355213D799900641792 /* VKPlusMusicPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D9A352213D799900641792 /* VKPlusMusicPrefs.h */; };
+		A5D9A356213D799900641792 /* VKPlusMusicPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A353213D799900641792 /* VKPlusMusicPrefs.m */; };
+		A5D9A357213D799900641792 /* VKPlusMusicPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A353213D799900641792 /* VKPlusMusicPrefs.m */; };
+		A5D9A358213D799E00641792 /* VKPlusMusicPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D9A353213D799900641792 /* VKPlusMusicPrefs.m */; };
+		A5DBD75F21D7E13700E109FE /* VKParamsMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A53D50E7211E1D29001A0912 /* VKParamsMain.m */; };
+		A5DBD76021D7E15100E109FE /* VKParamsFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AB011821204A9400874580 /* VKParamsFunctions.m */; };
+		A5DBD76121D7E15100E109FE /* VKParamsUserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A559E374211EE68D00854784 /* VKParamsUserPrefs.m */; };
+		A5DBD76621D7E2B500E109FE /* VKParamsNews.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE5A62121D74F005BB609 /* VKParamsNews.m */; };
+		A5DBD76821D7E2ED00E109FE /* VKParamsMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE384D2122C45400D5C8B6 /* VKParamsMessages.m */; };
+		A5DBD76921D7E37600E109FE /* VKParamsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE5A42121D359005BB609 /* VKParamsFeed.m */; };
+		A5DBD76C21D7E6D500E109FE /* VKParamsTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5818A702124431A00294F13 /* VKParamsTabbar.m */; };
+		A5DE38512122C74700D5C8B6 /* VKParamsMessagesPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE384F2122C74700D5C8B6 /* VKParamsMessagesPrefs.h */; };
+		A5DE38522122C74700D5C8B6 /* VKParamsMessagesPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE38502122C74700D5C8B6 /* VKParamsMessagesPrefs.m */; };
+		A5DE38552122E98200D5C8B6 /* VKParamsSwitchPrefsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE38532122E98200D5C8B6 /* VKParamsSwitchPrefsCell.h */; };
+		A5DE38562122E98200D5C8B6 /* VKParamsSwitchPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE38542122E98200D5C8B6 /* VKParamsSwitchPrefsCell.m */; };
+		A5E4B5A82125C2AF0075CD14 /* VKParamsTabbarPrefsContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E4B5A62125C2AF0075CD14 /* VKParamsTabbarPrefsContext.h */; };
+		A5E4B5A92125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4B5A72125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m */; };
+		A5F02487212FDA780094502D /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F02483212FDA780094502D /* SimplePing.h */; };
+		A5F02488212FDA780094502D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02486212FDA780094502D /* SimplePing.m */; };
+		A5F0248B212FDA810094502D /* SCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02489212FDA800094502D /* SCParser.m */; };
+		A5F0248C212FDA810094502D /* SCParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0248A212FDA800094502D /* SCParser.h */; };
+		A5F0248E212FDDA20094502D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02486212FDA780094502D /* SimplePing.m */; };
+		A5F02491212FDDA40094502D /* SCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02489212FDA800094502D /* SCParser.m */; };
+		A5F02498212FE16D0094502D /* VKParamsHostPinger.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F02496212FE16D0094502D /* VKParamsHostPinger.h */; };
+		A5F02499212FE16D0094502D /* VKParamsHostPinger.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02497212FE16D0094502D /* VKParamsHostPinger.m */; };
+		A5F0249A212FE18A0094502D /* VKParamsHostPinger.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02497212FE16D0094502D /* VKParamsHostPinger.m */; };
+		A5F024A1212FF3050094502D /* VKPlusPlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5F0249E212FF2800094502D /* VKPlusPlus.bundle */; };
+		A5FAE59C2121CAE4005BB609 /* VKParamsFeedPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FAE59A2121CAE4005BB609 /* VKParamsFeedPrefs.h */; };
+		A5FAE59F2121CF80005BB609 /* VKParamsFeedPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE59B2121CAE4005BB609 /* VKParamsFeedPrefs.m */; };
+		A5FAE5AE2121DD8A005BB609 /* VKParamsMainPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FAE5AC2121DD8A005BB609 /* VKParamsMainPreferences.h */; };
+		A5FAE5AF2121DD8A005BB609 /* VKParamsMainPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE5AD2121DD8A005BB609 /* VKParamsMainPreferences.m */; };
+		BF8B2F6261163DBFFD73D310 /* libPods-VKPlusPlus Bundle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B78F8FD91D07C44B064824 /* libPods-VKPlusPlus Bundle.a */; };
+		E4B7FBACFCE5701B4DD7620D /* libPods-VKPlusPlus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A071D5BBE40369B5D63221D /* libPods-VKPlusPlus.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5AC75C3212B2D9000441CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5AC75BE212B2D9000441CDD /* SCPreferences.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A53D504B211DE92F001A0912;
+			remoteInfo = "SCPreferences Framework";
+		};
+		A5AC75C5212B2D9000441CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5AC75BE212B2D9000441CDD /* SCPreferences.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A53D5082211E1776001A0912;
+			remoteInfo = "SCPreferences Static Library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075B13FDB96D3C7211908EFB /* Pods-VKPlusPrefs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKPlusPrefs.debug.xcconfig"; path = "Target Support Files/Pods-VKPlusPrefs/Pods-VKPlusPrefs.debug.xcconfig"; sourceTree = "<group>"; };
+		153DCAE077531AC61233915D /* libPods-VKPlusPrefs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKPlusPrefs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B78F8FD91D07C44B064824 /* libPods-VKPlusPlus Bundle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKPlusPlus Bundle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3994D1DA87DA50F47A4A95F4 /* Pods-VKPlusPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKPlusPlus.debug.xcconfig"; path = "Target Support Files/Pods-VKPlusPlus/Pods-VKPlusPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		6F800592A3EFF8DEB649B6D1 /* Pods-VKPlusPlus Bundle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKPlusPlus Bundle.release.xcconfig"; path = "Target Support Files/Pods-VKPlusPlus Bundle/Pods-VKPlusPlus Bundle.release.xcconfig"; sourceTree = "<group>"; };
+		821C6E96812F37262E3B217F /* Pods-VKPlusPrefs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKPlusPrefs.release.xcconfig"; path = "Target Support Files/Pods-VKPlusPrefs/Pods-VKPlusPrefs.release.xcconfig"; sourceTree = "<group>"; };
+		8A071D5BBE40369B5D63221D /* libPods-VKPlusPlus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKPlusPlus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B7FE8BF12ED7AAF526D24B /* Pods-VKPlusPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKPlusPlus.release.xcconfig"; path = "Target Support Files/Pods-VKPlusPlus/Pods-VKPlusPlus.release.xcconfig"; sourceTree = "<group>"; };
+		A529D03C2122F299005F4B5B /* VKParamsOtherPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsOtherPrefs.h; sourceTree = "<group>"; };
+		A529D03D2122F299005F4B5B /* VKParamsOtherPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsOtherPrefs.m; sourceTree = "<group>"; };
+		A53D50E1211E1D29001A0912 /* VKPlusPlus.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = VKPlusPlus.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53D50E4211E1D29001A0912 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A53D50E7211E1D29001A0912 /* VKParamsMain.m */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.c.objc; path = VKParamsMain.m; sourceTree = "<group>"; };
+		A53D5107211E1E0C001A0912 /* libSCPreferences.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSCPreferences.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53D5110211E2CF5001A0912 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = /opt/iOSOpenDev/Frameworks/Preferences.framework; sourceTree = "<absolute>"; };
+		A53E5D6021254D2A00220D92 /* VKParamsTabbarPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsTabbarPrefs.h; sourceTree = "<group>"; };
+		A53E5D6121254D2A00220D92 /* VKParamsTabbarPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsTabbarPrefs.m; sourceTree = "<group>"; };
+		A540F3212141364D00FF5779 /* VKPlusAvatarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPlusAvatarButton.h; sourceTree = "<group>"; };
+		A540F3222141364D00FF5779 /* VKPlusAvatarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPlusAvatarButton.m; sourceTree = "<group>"; };
+		A540F3292141387800FF5779 /* VKPlusUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPlusUserModel.h; sourceTree = "<group>"; };
+		A540F32A2141387800FF5779 /* VKPlusUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPlusUserModel.m; sourceTree = "<group>"; };
+		A540F335214138E300FF5779 /* VKPlusNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKPlusNetwork.h; sourceTree = "<group>"; };
+		A540F336214138E300FF5779 /* VKPlusNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKPlusNetwork.m; sourceTree = "<group>"; };
+		A54DA532212C04BA00750032 /* VKParamsModernNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKParamsModernNetwork.h; sourceTree = "<group>"; };
+		A54DA535212C04BA00750032 /* VKParamsModernNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKParamsModernNetwork.m; sourceTree = "<group>"; };
+		A559E36A211ED80700854784 /* ColoredVKSwiftMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColoredVKSwiftMenuController.h; path = Support/ColoredVKSwiftMenuController.h; sourceTree = "<group>"; };
+		A559E36B211ED80700854784 /* PSTableCellHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSTableCellHook.m; path = Support/PSTableCellHook.m; sourceTree = "<group>"; };
+		A559E36C211ED80700854784 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Support/PrefixHeader.pch; sourceTree = "<group>"; };
+		A559E36D211ED80700854784 /* ColoredVKSwiftMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColoredVKSwiftMenuButton.h; path = Support/ColoredVKSwiftMenuButton.h; sourceTree = "<group>"; };
+		A559E374211EE68D00854784 /* VKParamsUserPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsUserPrefs.m; sourceTree = "<group>"; };
+		A559E376211EE6C900854784 /* VKParamsUserPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsUserPrefs.h; sourceTree = "<group>"; };
+		A56C821421611A3D003092A6 /* VKPlusPrefsTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPlusPrefsTableView.h; sourceTree = "<group>"; };
+		A56C821521611A3D003092A6 /* VKPlusPrefsTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPlusPrefsTableView.m; sourceTree = "<group>"; };
+		A5818A702124431A00294F13 /* VKParamsTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsTabbar.m; sourceTree = "<group>"; };
+		A5818A722124435100294F13 /* VKParamsTweak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsTweak.h; sourceTree = "<group>"; };
+		A5818A7321245B7700294F13 /* VKParamsTabbarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsTabbarModel.h; sourceTree = "<group>"; };
+		A5818A7421245B7700294F13 /* VKParamsTabbarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsTabbarModel.m; sourceTree = "<group>"; };
+		A582CD6C21612C450047649B /* UITableViewCell+VKPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+VKPlus.h"; sourceTree = "<group>"; };
+		A582CD6D21612C450047649B /* UITableViewCell+VKPlus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+VKPlus.m"; sourceTree = "<group>"; };
+		A58B54E4212D681600B9D644 /* VKParamsTextPrefsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsTextPrefsCell.h; sourceTree = "<group>"; };
+		A58B54E5212D681600B9D644 /* VKParamsTextPrefsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsTextPrefsCell.m; sourceTree = "<group>"; };
+		A58B54EB212D877B00B9D644 /* VKParamsProxyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsProxyModel.h; sourceTree = "<group>"; };
+		A58B54EC212D877B00B9D644 /* VKParamsProxyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsProxyModel.m; sourceTree = "<group>"; };
+		A58B54F4212D9D6500B9D644 /* VKParamsNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsNavigationController.h; sourceTree = "<group>"; };
+		A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsNavigationController.m; sourceTree = "<group>"; };
+		A59B6485215F9DFD00E13DAC /* UITabBarItem+VKPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+VKPlus.h"; sourceTree = "<group>"; };
+		A59B6486215F9DFD00E13DAC /* UITabBarItem+VKPlus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+VKPlus.m"; sourceTree = "<group>"; };
+		A59CC857212DB2000076D328 /* VKParamsProxyPrefsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsProxyPrefsCell.h; sourceTree = "<group>"; };
+		A59CC858212DB2000076D328 /* VKParamsProxyPrefsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsProxyPrefsCell.m; sourceTree = "<group>"; };
+		A5A6BE6421289D3A0097440A /* VKParamsTabbarModel+AutomaticCreation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VKParamsTabbarModel+AutomaticCreation.m"; sourceTree = "<group>"; };
+		A5AB0114212049C200874580 /* VKParamsPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKParamsPreferences.h; sourceTree = "<group>"; };
+		A5AB0115212049C200874580 /* VKParamsPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKParamsPreferences.m; sourceTree = "<group>"; };
+		A5AB011821204A9400874580 /* VKParamsFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsFunctions.m; sourceTree = "<group>"; };
+		A5AB011A21204AAB00874580 /* VKParamsFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsFunctions.h; sourceTree = "<group>"; };
+		A5AC75AC212AEB4100441CDD /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A5AC75BE212B2D9000441CDD /* SCPreferences.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCPreferences.xcodeproj; path = Subprojects/SCPreferences/SCPreferences.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A5B8AAA321354A85000B5223 /* VKPlusPlus.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = VKPlusPlus.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BAF1022124A86700859577 /* VKModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKModels.h; sourceTree = "<group>"; };
+		A5BAF1032124A8B800859577 /* VKControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKControllers.h; sourceTree = "<group>"; };
+		A5BAF1042124A8CF00859577 /* VKViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKViews.h; sourceTree = "<group>"; };
+		A5C05ACD212C51D100CDD7BF /* VKParamsProxyPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsProxyPrefs.h; sourceTree = "<group>"; };
+		A5C05ACE212C51D100CDD7BF /* VKParamsProxyPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsProxyPrefs.m; sourceTree = "<group>"; };
+		A5C05AD8212C5B1300CDD7BF /* VKParamsButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsButtonCell.h; sourceTree = "<group>"; };
+		A5C05AD9212C5B1300CDD7BF /* VKParamsButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsButtonCell.m; sourceTree = "<group>"; };
+		A5C05ADD212C70B100CDD7BF /* VKParamsProxyEditController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsProxyEditController.h; sourceTree = "<group>"; };
+		A5C05ADE212C70B100CDD7BF /* VKParamsProxyEditController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsProxyEditController.m; sourceTree = "<group>"; };
+		A5C05AE2212C8A9400CDD7BF /* VKParamsSelectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsSelectionCell.h; sourceTree = "<group>"; };
+		A5C05AE3212C8A9400CDD7BF /* VKParamsSelectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsSelectionCell.m; sourceTree = "<group>"; };
+		A5C05AE7212C8B4C00CDD7BF /* VKParamsImages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsImages.h; sourceTree = "<group>"; };
+		A5C05AE8212C8B4C00CDD7BF /* VKParamsImages.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsImages.m; sourceTree = "<group>"; };
+		A5C05AED212C956100CDD7BF /* VKParamsTickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsTickView.h; sourceTree = "<group>"; };
+		A5C05AEE212C956100CDD7BF /* VKParamsTickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsTickView.m; sourceTree = "<group>"; };
+		A5C05AF2212CA6C400CDD7BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5CA593821274B5600CDAD18 /* VKPlusPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPlusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CA593A21274B5600CDAD18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5CA593B21274B5600CDAD18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5CA594121274B5600CDAD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5CA594321274B5800CDAD18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5CA594621274B5800CDAD18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5CA594821274B5800CDAD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CA594921274B5800CDAD18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5CEE91F2154D78900927334 /* VKParamsTabbarModel+VKModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "VKParamsTabbarModel+VKModule.m"; sourceTree = "<group>"; };
+		A5CEE9242154FD9300927334 /* VKPlusBlacklist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPlusBlacklist.h; sourceTree = "<group>"; };
+		A5CEE9252154FD9300927334 /* VKPlusBlacklist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPlusBlacklist.m; sourceTree = "<group>"; };
+		A5D34EBB2135548600960FF7 /* NSBundle+VKPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+VKPlus.h"; sourceTree = "<group>"; };
+		A5D34EBC2135548600960FF7 /* NSBundle+VKPlus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+VKPlus.m"; sourceTree = "<group>"; };
+		A5D34EC22135552A00960FF7 /* UIImage+VKPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+VKPlus.h"; sourceTree = "<group>"; };
+		A5D34EC32135552A00960FF7 /* UIImage+VKPlus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+VKPlus.m"; sourceTree = "<group>"; };
+		A5D34EC92135558800960FF7 /* NSUserDefaults+VKPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+VKPlus.h"; sourceTree = "<group>"; };
+		A5D34ECA2135558800960FF7 /* NSUserDefaults+VKPlus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+VKPlus.m"; sourceTree = "<group>"; };
+		A5D34ED02135671D00960FF7 /* VKPlusAvatarProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPlusAvatarProcessor.h; sourceTree = "<group>"; };
+		A5D34ED12135671D00960FF7 /* VKPlusAvatarProcessor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPlusAvatarProcessor.m; sourceTree = "<group>"; };
+		A5D34ED821357D3F00960FF7 /* VKPlusImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPlusImageCache.h; sourceTree = "<group>"; };
+		A5D34ED921357D3F00960FF7 /* VKPlusImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPlusImageCache.m; sourceTree = "<group>"; };
+		A5D9A352213D799900641792 /* VKPlusMusicPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKPlusMusicPrefs.h; sourceTree = "<group>"; };
+		A5D9A353213D799900641792 /* VKPlusMusicPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKPlusMusicPrefs.m; sourceTree = "<group>"; };
+		A5DE384D2122C45400D5C8B6 /* VKParamsMessages.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsMessages.m; sourceTree = "<group>"; };
+		A5DE384F2122C74700D5C8B6 /* VKParamsMessagesPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsMessagesPrefs.h; sourceTree = "<group>"; };
+		A5DE38502122C74700D5C8B6 /* VKParamsMessagesPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsMessagesPrefs.m; sourceTree = "<group>"; };
+		A5DE38532122E98200D5C8B6 /* VKParamsSwitchPrefsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsSwitchPrefsCell.h; sourceTree = "<group>"; };
+		A5DE38542122E98200D5C8B6 /* VKParamsSwitchPrefsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsSwitchPrefsCell.m; sourceTree = "<group>"; };
+		A5E4B5A62125C2AF0075CD14 /* VKParamsTabbarPrefsContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKParamsTabbarPrefsContext.h; sourceTree = "<group>"; };
+		A5E4B5A72125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKParamsTabbarPrefsContext.m; sourceTree = "<group>"; };
+		A5F02483212FDA780094502D /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimplePing.h; path = Support/SimplePing.h; sourceTree = "<group>"; };
+		A5F02486212FDA780094502D /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimplePing.m; path = Support/SimplePing.m; sourceTree = "<group>"; };
+		A5F02489212FDA800094502D /* SCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCParser.m; path = Support/SCParser.m; sourceTree = "<group>"; };
+		A5F0248A212FDA800094502D /* SCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCParser.h; path = Support/SCParser.h; sourceTree = "<group>"; };
+		A5F02496212FE16D0094502D /* VKParamsHostPinger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsHostPinger.h; sourceTree = "<group>"; };
+		A5F02497212FE16D0094502D /* VKParamsHostPinger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsHostPinger.m; sourceTree = "<group>"; };
+		A5F0249E212FF2800094502D /* VKPlusPlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VKPlusPlus.bundle; sourceTree = "<group>"; };
+		A5F024A2212FF8E00094502D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		A5F024A3212FF8E00094502D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A5FAE5912121C28A005BB609 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		A5FAE5972121C2ED005BB609 /* VKPlusPlus.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = VKPlusPlus.plist; sourceTree = "<group>"; };
+		A5FAE59A2121CAE4005BB609 /* VKParamsFeedPrefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsFeedPrefs.h; sourceTree = "<group>"; };
+		A5FAE59B2121CAE4005BB609 /* VKParamsFeedPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsFeedPrefs.m; sourceTree = "<group>"; };
+		A5FAE5A42121D359005BB609 /* VKParamsFeed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsFeed.m; sourceTree = "<group>"; };
+		A5FAE5A62121D74F005BB609 /* VKParamsNews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsNews.m; sourceTree = "<group>"; };
+		A5FAE5AC2121DD8A005BB609 /* VKParamsMainPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsMainPreferences.h; sourceTree = "<group>"; };
+		A5FAE5AD2121DD8A005BB609 /* VKParamsMainPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsMainPreferences.m; sourceTree = "<group>"; };
+		AD0E245B02BAC268B7110B92 /* Pods-VKPlusPlus Bundle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKPlusPlus Bundle.debug.xcconfig"; path = "Target Support Files/Pods-VKPlusPlus Bundle/Pods-VKPlusPlus Bundle.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53D50DD211E1D29001A0912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AC75C8212B2DA200441CDD /* libSCPreferences.a in Frameworks */,
+				A53D50E5211E1D29001A0912 /* Foundation.framework in Frameworks */,
+				A53D5111211E2CF5001A0912 /* Preferences.framework in Frameworks */,
+				E4B7FBACFCE5701B4DD7620D /* libPods-VKPlusPlus.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B8AA7E21354A85000B5223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B8AA7F21354A85000B5223 /* libSCPreferences.a in Frameworks */,
+				A5B8AA8021354A85000B5223 /* Foundation.framework in Frameworks */,
+				A5B8AA8121354A85000B5223 /* Preferences.framework in Frameworks */,
+				BF8B2F6261163DBFFD73D310 /* libPods-VKPlusPlus Bundle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CA593521274B5600CDAD18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AC75C7212B2D9C00441CDD /* libSCPreferences.a in Frameworks */,
+				A5680A9521274DA100B2C802 /* Preferences.framework in Frameworks */,
+				A5680A9421274D9C00B2C802 /* Foundation.framework in Frameworks */,
+				9BFE4EBD2FD3A9B961CE5856 /* libPods-VKPlusPrefs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0FB5B25A1DF04C01129053 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3994D1DA87DA50F47A4A95F4 /* Pods-VKPlusPlus.debug.xcconfig */,
+				A1B7FE8BF12ED7AAF526D24B /* Pods-VKPlusPlus.release.xcconfig */,
+				AD0E245B02BAC268B7110B92 /* Pods-VKPlusPlus Bundle.debug.xcconfig */,
+				6F800592A3EFF8DEB649B6D1 /* Pods-VKPlusPlus Bundle.release.xcconfig */,
+				075B13FDB96D3C7211908EFB /* Pods-VKPlusPrefs.debug.xcconfig */,
+				821C6E96812F37262E3B217F /* Pods-VKPlusPrefs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5100DEF2141457C003021E2 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				A54DA532212C04BA00750032 /* VKParamsModernNetwork.h */,
+				A54DA535212C04BA00750032 /* VKParamsModernNetwork.m */,
+				A540F335214138E300FF5779 /* VKPlusNetwork.h */,
+				A540F336214138E300FF5779 /* VKPlusNetwork.m */,
+				A5D34ED02135671D00960FF7 /* VKPlusAvatarProcessor.h */,
+				A5D34ED12135671D00960FF7 /* VKPlusAvatarProcessor.m */,
+				A540F3292141387800FF5779 /* VKPlusUserModel.h */,
+				A540F32A2141387800FF5779 /* VKPlusUserModel.m */,
+				A5CEE9242154FD9300927334 /* VKPlusBlacklist.h */,
+				A5CEE9252154FD9300927334 /* VKPlusBlacklist.m */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		A53D50D7211E1D29001A0912 = {
+			isa = PBXGroup;
+			children = (
+				A53D50E6211E1D29001A0912 /* VKPlus */,
+				A5CA593921274B5600CDAD18 /* VKPlusPrefs */,
+				A53D50E3211E1D29001A0912 /* Frameworks */,
+				A53D50E2211E1D29001A0912 /* Products */,
+				1B0FB5B25A1DF04C01129053 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A53D50E2211E1D29001A0912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53D50E1211E1D29001A0912 /* VKPlusPlus.dylib */,
+				A5CA593821274B5600CDAD18 /* VKPlusPlus.app */,
+				A5B8AAA321354A85000B5223 /* VKPlusPlus.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53D50E3211E1D29001A0912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A53D5107211E1E0C001A0912 /* libSCPreferences.a */,
+				A53D50E4211E1D29001A0912 /* Foundation.framework */,
+				A53D5110211E2CF5001A0912 /* Preferences.framework */,
+				8A071D5BBE40369B5D63221D /* libPods-VKPlusPlus.a */,
+				32B78F8FD91D07C44B064824 /* libPods-VKPlusPlus Bundle.a */,
+				153DCAE077531AC61233915D /* libPods-VKPlusPrefs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A53D50E6211E1D29001A0912 /* VKPlus */ = {
+			isa = PBXGroup;
+			children = (
+				A5BAF1062124A90800859577 /* Tweak */,
+				A5BAF1052124A8ED00859577 /* Headers */,
+				A5C155AF21255FDE008EF12A /* Models */,
+				A5FAE59E2121CEAC005BB609 /* Preferences */,
+				A5C05AD2212C593F00CDD7BF /* Cells */,
+				A5C05AEC212C952400CDD7BF /* Views */,
+				A5D34EB82135544D00960FF7 /* Categories */,
+				A5FAE58D2121C244005BB609 /* Package */,
+				A559E367211ED5EC00854784 /* Support */,
+			);
+			path = VKPlus;
+			sourceTree = "<group>";
+		};
+		A559E367211ED5EC00854784 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A5F02483212FDA780094502D /* SimplePing.h */,
+				A5F02486212FDA780094502D /* SimplePing.m */,
+				A5C05AF2212CA6C400CDD7BF /* Images.xcassets */,
+				A5AC75BE212B2D9000441CDD /* SCPreferences.xcodeproj */,
+				A559E36C211ED80700854784 /* PrefixHeader.pch */,
+				A559E36D211ED80700854784 /* ColoredVKSwiftMenuButton.h */,
+				A559E36A211ED80700854784 /* ColoredVKSwiftMenuController.h */,
+				A559E36B211ED80700854784 /* PSTableCellHook.m */,
+				A5F0248A212FDA800094502D /* SCParser.h */,
+				A5F02489212FDA800094502D /* SCParser.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		A5AC75BF212B2D9000441CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5AC75C4212B2D9000441CDD /* SCPreferences.framework */,
+				A5AC75C6212B2D9000441CDD /* libSCPreferences.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BAF1052124A8ED00859577 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A5BAF1022124A86700859577 /* VKModels.h */,
+				A5BAF1032124A8B800859577 /* VKControllers.h */,
+				A5BAF1042124A8CF00859577 /* VKViews.h */,
+				A5AC75AC212AEB4100441CDD /* AFNetworking.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		A5BAF1062124A90800859577 /* Tweak */ = {
+			isa = PBXGroup;
+			children = (
+				A5818A722124435100294F13 /* VKParamsTweak.h */,
+				A5AB011A21204AAB00874580 /* VKParamsFunctions.h */,
+				A5AB011821204A9400874580 /* VKParamsFunctions.m */,
+				A559E376211EE6C900854784 /* VKParamsUserPrefs.h */,
+				A559E374211EE68D00854784 /* VKParamsUserPrefs.m */,
+				A53D50E7211E1D29001A0912 /* VKParamsMain.m */,
+				A5FAE5A42121D359005BB609 /* VKParamsFeed.m */,
+				A5FAE5A62121D74F005BB609 /* VKParamsNews.m */,
+				A5DE384D2122C45400D5C8B6 /* VKParamsMessages.m */,
+				A5818A702124431A00294F13 /* VKParamsTabbar.m */,
+			);
+			path = Tweak;
+			sourceTree = "<group>";
+		};
+		A5C05AD2212C593F00CDD7BF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A5DE38532122E98200D5C8B6 /* VKParamsSwitchPrefsCell.h */,
+				A5DE38542122E98200D5C8B6 /* VKParamsSwitchPrefsCell.m */,
+				A5C05AD8212C5B1300CDD7BF /* VKParamsButtonCell.h */,
+				A5C05AD9212C5B1300CDD7BF /* VKParamsButtonCell.m */,
+				A5C05AE2212C8A9400CDD7BF /* VKParamsSelectionCell.h */,
+				A5C05AE3212C8A9400CDD7BF /* VKParamsSelectionCell.m */,
+				A58B54E4212D681600B9D644 /* VKParamsTextPrefsCell.h */,
+				A58B54E5212D681600B9D644 /* VKParamsTextPrefsCell.m */,
+				A59CC857212DB2000076D328 /* VKParamsProxyPrefsCell.h */,
+				A59CC858212DB2000076D328 /* VKParamsProxyPrefsCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A5C05AEC212C952400CDD7BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A5C05AED212C956100CDD7BF /* VKParamsTickView.h */,
+				A5C05AEE212C956100CDD7BF /* VKParamsTickView.m */,
+				A540F3212141364D00FF5779 /* VKPlusAvatarButton.h */,
+				A540F3222141364D00FF5779 /* VKPlusAvatarButton.m */,
+				A56C821421611A3D003092A6 /* VKPlusPrefsTableView.h */,
+				A56C821521611A3D003092A6 /* VKPlusPrefsTableView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A5C155AF21255FDE008EF12A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5818A7321245B7700294F13 /* VKParamsTabbarModel.h */,
+				A5818A7421245B7700294F13 /* VKParamsTabbarModel.m */,
+				A5A6BE6421289D3A0097440A /* VKParamsTabbarModel+AutomaticCreation.m */,
+				A5CEE91F2154D78900927334 /* VKParamsTabbarModel+VKModule.m */,
+				A5C05AE7212C8B4C00CDD7BF /* VKParamsImages.h */,
+				A5C05AE8212C8B4C00CDD7BF /* VKParamsImages.m */,
+				A58B54EB212D877B00B9D644 /* VKParamsProxyModel.h */,
+				A58B54EC212D877B00B9D644 /* VKParamsProxyModel.m */,
+				A5F02496212FE16D0094502D /* VKParamsHostPinger.h */,
+				A5F02497212FE16D0094502D /* VKParamsHostPinger.m */,
+				A5D34ED821357D3F00960FF7 /* VKPlusImageCache.h */,
+				A5D34ED921357D3F00960FF7 /* VKPlusImageCache.m */,
+				A5100DEF2141457C003021E2 /* Loading */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5CA593921274B5600CDAD18 /* VKPlusPrefs */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA593A21274B5600CDAD18 /* AppDelegate.h */,
+				A5CA593B21274B5600CDAD18 /* AppDelegate.m */,
+				A5CA594021274B5600CDAD18 /* Main.storyboard */,
+				A5CA594321274B5800CDAD18 /* Assets.xcassets */,
+				A5CA594521274B5800CDAD18 /* LaunchScreen.storyboard */,
+				A5CA594821274B5800CDAD18 /* Info.plist */,
+				A5CA594921274B5800CDAD18 /* main.m */,
+			);
+			path = VKPlusPrefs;
+			sourceTree = "<group>";
+		};
+		A5D34EB82135544D00960FF7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A5D34EBB2135548600960FF7 /* NSBundle+VKPlus.h */,
+				A5D34EBC2135548600960FF7 /* NSBundle+VKPlus.m */,
+				A5D34EC22135552A00960FF7 /* UIImage+VKPlus.h */,
+				A5D34EC32135552A00960FF7 /* UIImage+VKPlus.m */,
+				A5D34EC92135558800960FF7 /* NSUserDefaults+VKPlus.h */,
+				A5D34ECA2135558800960FF7 /* NSUserDefaults+VKPlus.m */,
+				A59B6485215F9DFD00E13DAC /* UITabBarItem+VKPlus.h */,
+				A59B6486215F9DFD00E13DAC /* UITabBarItem+VKPlus.m */,
+				A582CD6C21612C450047649B /* UITableViewCell+VKPlus.h */,
+				A582CD6D21612C450047649B /* UITableViewCell+VKPlus.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A5F0249B212FF02B0094502D /* Application Support */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0249E212FF2800094502D /* VKPlusPlus.bundle */,
+			);
+			path = "Application Support";
+			sourceTree = "<group>";
+		};
+		A5FAE58D2121C244005BB609 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				A5FAE58E2121C251005BB609 /* DEBIAN */,
+				A5FAE5932121C2A9005BB609 /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		A5FAE58E2121C251005BB609 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				A5FAE5912121C28A005BB609 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		A5FAE5932121C2A9005BB609 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0249B212FF02B0094502D /* Application Support */,
+				A5FAE5952121C2CC005BB609 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A5FAE5952121C2CC005BB609 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				A5FAE5962121C2DB005BB609 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		A5FAE5962121C2DB005BB609 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				A5FAE5972121C2ED005BB609 /* VKPlusPlus.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		A5FAE59E2121CEAC005BB609 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				A5AB0114212049C200874580 /* VKParamsPreferences.h */,
+				A5AB0115212049C200874580 /* VKParamsPreferences.m */,
+				A5FAE5AC2121DD8A005BB609 /* VKParamsMainPreferences.h */,
+				A5FAE5AD2121DD8A005BB609 /* VKParamsMainPreferences.m */,
+				A5FAE59A2121CAE4005BB609 /* VKParamsFeedPrefs.h */,
+				A5FAE59B2121CAE4005BB609 /* VKParamsFeedPrefs.m */,
+				A5D9A352213D799900641792 /* VKPlusMusicPrefs.h */,
+				A5D9A353213D799900641792 /* VKPlusMusicPrefs.m */,
+				A5DE384F2122C74700D5C8B6 /* VKParamsMessagesPrefs.h */,
+				A5DE38502122C74700D5C8B6 /* VKParamsMessagesPrefs.m */,
+				A529D03C2122F299005F4B5B /* VKParamsOtherPrefs.h */,
+				A529D03D2122F299005F4B5B /* VKParamsOtherPrefs.m */,
+				A5E4B5A62125C2AF0075CD14 /* VKParamsTabbarPrefsContext.h */,
+				A5E4B5A72125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m */,
+				A53E5D6021254D2A00220D92 /* VKParamsTabbarPrefs.h */,
+				A53E5D6121254D2A00220D92 /* VKParamsTabbarPrefs.m */,
+				A5C05ACD212C51D100CDD7BF /* VKParamsProxyPrefs.h */,
+				A5C05ACE212C51D100CDD7BF /* VKParamsProxyPrefs.m */,
+				A5C05ADD212C70B100CDD7BF /* VKParamsProxyEditController.h */,
+				A5C05ADE212C70B100CDD7BF /* VKParamsProxyEditController.m */,
+				A58B54F4212D9D6500B9D644 /* VKParamsNavigationController.h */,
+				A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A53D50DE211E1D29001A0912 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C05ADF212C70B100CDD7BF /* VKParamsProxyEditController.h in Headers */,
+				A59CC859212DB2000076D328 /* VKParamsProxyPrefsCell.h in Headers */,
+				A5F02487212FDA780094502D /* SimplePing.h in Headers */,
+				A582CD6E21612C450047649B /* UITableViewCell+VKPlus.h in Headers */,
+				A53E5D6221254D2A00220D92 /* VKParamsTabbarPrefs.h in Headers */,
+				A559E370211ED80800854784 /* PrefixHeader.pch in Headers */,
+				A5D34EC42135552A00960FF7 /* UIImage+VKPlus.h in Headers */,
+				A5E4B5A82125C2AF0075CD14 /* VKParamsTabbarPrefsContext.h in Headers */,
+				A5C05ACF212C51D100CDD7BF /* VKParamsProxyPrefs.h in Headers */,
+				A5F0248C212FDA810094502D /* SCParser.h in Headers */,
+				A5818A7521245B7700294F13 /* VKParamsTabbarModel.h in Headers */,
+				A559E371211ED80800854784 /* ColoredVKSwiftMenuButton.h in Headers */,
+				A5DE38512122C74700D5C8B6 /* VKParamsMessagesPrefs.h in Headers */,
+				A54DA536212C04BA00750032 /* VKParamsModernNetwork.h in Headers */,
+				A58B54E6212D681600B9D644 /* VKParamsTextPrefsCell.h in Headers */,
+				A56C821621611A3D003092A6 /* VKPlusPrefsTableView.h in Headers */,
+				A5AB0116212049C200874580 /* VKParamsPreferences.h in Headers */,
+				A559E36E211ED80800854784 /* ColoredVKSwiftMenuController.h in Headers */,
+				A5FAE59C2121CAE4005BB609 /* VKParamsFeedPrefs.h in Headers */,
+				A5D34ED22135671D00960FF7 /* VKPlusAvatarProcessor.h in Headers */,
+				A5FAE5AE2121DD8A005BB609 /* VKParamsMainPreferences.h in Headers */,
+				A5C05AEF212C956100CDD7BF /* VKParamsTickView.h in Headers */,
+				A540F32B2141387800FF5779 /* VKPlusUserModel.h in Headers */,
+				A540F337214138E300FF5779 /* VKPlusNetwork.h in Headers */,
+				A5DE38552122E98200D5C8B6 /* VKParamsSwitchPrefsCell.h in Headers */,
+				A58B54ED212D877B00B9D644 /* VKParamsProxyModel.h in Headers */,
+				A5D34ECB2135558800960FF7 /* NSUserDefaults+VKPlus.h in Headers */,
+				A5D34EBD2135548600960FF7 /* NSBundle+VKPlus.h in Headers */,
+				A540F3232141364D00FF5779 /* VKPlusAvatarButton.h in Headers */,
+				A5D9A354213D799900641792 /* VKPlusMusicPrefs.h in Headers */,
+				A5C05AE4212C8A9400CDD7BF /* VKParamsSelectionCell.h in Headers */,
+				A5F02498212FE16D0094502D /* VKParamsHostPinger.h in Headers */,
+				A5CEE9262154FD9300927334 /* VKPlusBlacklist.h in Headers */,
+				A5C05AE9212C8B4C00CDD7BF /* VKParamsImages.h in Headers */,
+				A58B54F6212D9D6500B9D644 /* VKParamsNavigationController.h in Headers */,
+				A529D03E2122F299005F4B5B /* VKParamsOtherPrefs.h in Headers */,
+				A5AC75AD212AEBAA00441CDD /* AFNetworking.h in Headers */,
+				A5D34EDA21357D3F00960FF7 /* VKPlusImageCache.h in Headers */,
+				A5C05ADA212C5B1300CDD7BF /* VKParamsButtonCell.h in Headers */,
+				A59B6487215F9DFD00E13DAC /* UITabBarItem+VKPlus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B8AA8221354A85000B5223 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B8AA8321354A85000B5223 /* VKParamsProxyEditController.h in Headers */,
+				A5B8AA8421354A85000B5223 /* VKParamsProxyPrefsCell.h in Headers */,
+				A5B8AA8521354A85000B5223 /* SimplePing.h in Headers */,
+				A5B8AA8621354A85000B5223 /* VKParamsTabbarPrefs.h in Headers */,
+				A5B8AA8721354A85000B5223 /* PrefixHeader.pch in Headers */,
+				A5D34EC52135552A00960FF7 /* UIImage+VKPlus.h in Headers */,
+				A540F3242141364D00FF5779 /* VKPlusAvatarButton.h in Headers */,
+				A56C821721611A3D003092A6 /* VKPlusPrefsTableView.h in Headers */,
+				A5B8AA8821354A85000B5223 /* VKParamsTabbarPrefsContext.h in Headers */,
+				A5B8AA8921354A85000B5223 /* VKParamsProxyPrefs.h in Headers */,
+				A5B8AA8A21354A85000B5223 /* SCParser.h in Headers */,
+				A5B8AA8B21354A85000B5223 /* VKParamsTabbarModel.h in Headers */,
+				A5B8AA8C21354A85000B5223 /* ColoredVKSwiftMenuButton.h in Headers */,
+				A540F32C2141387800FF5779 /* VKPlusUserModel.h in Headers */,
+				A5B8AA8D21354A85000B5223 /* VKParamsMessagesPrefs.h in Headers */,
+				A5B8AA8E21354A85000B5223 /* VKParamsModernNetwork.h in Headers */,
+				A5B8AA8F21354A85000B5223 /* VKParamsTextPrefsCell.h in Headers */,
+				A5D9A355213D799900641792 /* VKPlusMusicPrefs.h in Headers */,
+				A5CEE9272154FD9300927334 /* VKPlusBlacklist.h in Headers */,
+				A5B8AA9021354A85000B5223 /* VKParamsPreferences.h in Headers */,
+				A5B8AA9121354A85000B5223 /* ColoredVKSwiftMenuController.h in Headers */,
+				A5B8AA9221354A85000B5223 /* VKParamsFeedPrefs.h in Headers */,
+				A5D34ED32135671D00960FF7 /* VKPlusAvatarProcessor.h in Headers */,
+				A582CD6F21612C450047649B /* UITableViewCell+VKPlus.h in Headers */,
+				A5B8AA9421354A85000B5223 /* VKParamsMainPreferences.h in Headers */,
+				A5B8AA9521354A85000B5223 /* VKParamsTickView.h in Headers */,
+				A5B8AA9621354A85000B5223 /* VKParamsSwitchPrefsCell.h in Headers */,
+				A5B8AA9721354A85000B5223 /* VKParamsProxyModel.h in Headers */,
+				A5D34ECC2135558800960FF7 /* NSUserDefaults+VKPlus.h in Headers */,
+				A5D34EBE2135548600960FF7 /* NSBundle+VKPlus.h in Headers */,
+				A5B8AA9821354A85000B5223 /* VKParamsSelectionCell.h in Headers */,
+				A5B8AA9921354A85000B5223 /* VKParamsHostPinger.h in Headers */,
+				A5B8AA9A21354A85000B5223 /* VKParamsImages.h in Headers */,
+				A5B8AA9B21354A85000B5223 /* VKParamsNavigationController.h in Headers */,
+				A59B6488215F9DFD00E13DAC /* UITabBarItem+VKPlus.h in Headers */,
+				A5B8AA9C21354A85000B5223 /* VKParamsOtherPrefs.h in Headers */,
+				A5B8AA9D21354A85000B5223 /* AFNetworking.h in Headers */,
+				A5B8AA9E21354A85000B5223 /* VKParamsButtonCell.h in Headers */,
+				A540F338214138E300FF5779 /* VKPlusNetwork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A53D50E0211E1D29001A0912 /* VKPlusPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53D50F2211E1D29001A0912 /* Build configuration list for PBXNativeTarget "VKPlusPlus" */;
+			buildPhases = (
+				3EB108EF0901482652A6F5E9 /* [CP] Check Pods Manifest.lock */,
+				A53D50DC211E1D29001A0912 /* Sources */,
+				A53D50DD211E1D29001A0912 /* Frameworks */,
+				A53D50DE211E1D29001A0912 /* Headers */,
+				A53D50DF211E1D29001A0912 /* Copy files and build deb */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKPlusPlus;
+			productName = VKParams;
+			productReference = A53D50E1211E1D29001A0912 /* VKPlusPlus.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		A5B8AA5B21354A85000B5223 /* VKPlusPlus Bundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B8AAA021354A85000B5223 /* Build configuration list for PBXNativeTarget "VKPlusPlus Bundle" */;
+			buildPhases = (
+				85709FFE3552BB0A6C0AE50E /* [CP] Check Pods Manifest.lock */,
+				A5B8AA5C21354A85000B5223 /* Sources */,
+				A5B8AA7E21354A85000B5223 /* Frameworks */,
+				A5B8AA8221354A85000B5223 /* Headers */,
+				A5B8AA9F21354A85000B5223 /* Copy files and build bundle */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VKPlusPlus Bundle";
+			productName = VKParams;
+			productReference = A5B8AAA321354A85000B5223 /* VKPlusPlus.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		A5CA593721274B5600CDAD18 /* VKPlusPrefs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CA594B21274B5800CDAD18 /* Build configuration list for PBXNativeTarget "VKPlusPrefs" */;
+			buildPhases = (
+				2C39A62599ADE3091884A79B /* [CP] Check Pods Manifest.lock */,
+				A5CA593421274B5600CDAD18 /* Sources */,
+				A5CA593521274B5600CDAD18 /* Frameworks */,
+				A5CA593621274B5600CDAD18 /* Resources */,
+				A5B8AA2B21354555000B5223 /* Compile assets */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKPlusPrefs;
+			productName = VKParamsPrefs;
+			productReference = A5CA593821274B5600CDAD18 /* VKPlusPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53D50D8211E1D29001A0912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VKPlus;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Даниил";
+				TargetAttributes = {
+					A53D50E0211E1D29001A0912 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					A5CA593721274B5600CDAD18 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A53D50DB211E1D29001A0912 /* Build configuration list for PBXProject "VKPlus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53D50D7211E1D29001A0912;
+			productRefGroup = A53D50E2211E1D29001A0912 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A5AC75BF212B2D9000441CDD /* Products */;
+					ProjectRef = A5AC75BE212B2D9000441CDD /* SCPreferences.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A53D50E0211E1D29001A0912 /* VKPlusPlus */,
+				A5CA593721274B5600CDAD18 /* VKPlusPrefs */,
+				A5B8AA5B21354A85000B5223 /* VKPlusPlus Bundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A5AC75C4212B2D9000441CDD /* SCPreferences.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SCPreferences.framework;
+			remoteRef = A5AC75C3212B2D9000441CDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A5AC75C6212B2D9000441CDD /* libSCPreferences.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSCPreferences.a;
+			remoteRef = A5AC75C5212B2D9000441CDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5CA593621274B5600CDAD18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B8AA2C213545C5000B5223 /* Assets.xcassets in Resources */,
+				A5F024A1212FF3050094502D /* VKPlusPlus.bundle in Resources */,
+				A5CA594721274B5800CDAD18 /* LaunchScreen.storyboard in Resources */,
+				A5CA594221274B5600CDAD18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C39A62599ADE3091884A79B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKPlusPrefs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EB108EF0901482652A6F5E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKPlusPlus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85709FFE3552BB0A6C0AE50E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VKPlusPlus Bundle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53D50DF211E1D29001A0912 /* Copy files and build deb */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy files and build deb";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"ls -1 ${BUILT_PRODUCTS_DIR}/*.dylib 2>/dev/null | wc -l\" == 0 ]]; then\necho \"${BUILT_PRODUCTS_DIR} does not contain any dylib file.\";\nexit 1;\nfi\n\nPACKAGE_PROJECT_FOLDER=\"${PROJECT_DIR}/${PROJECT_NAME}/Package\";\nif [ ! -d $PACKAGE_PROJECT_FOLDER ]; then\necho \"${PROJECT_DIR}/Package does not exits.\";\nexit 2;\nfi\n\n\nPACKAGE_TEMP_FOLDER=\"${BUILT_PRODUCTS_DIR}/Package\";\nif [ -d $PACKAGE_TEMP_FOLDER ]; then\nrm -rf $PACKAGE_TEMP_FOLDER;\nfi\n\necho \"[->] Copying binaries...\";\ncp -r $PACKAGE_PROJECT_FOLDER $PACKAGE_TEMP_FOLDER;\nfind ${BUILT_PRODUCTS_DIR} -type f -iname '*.dylib' -exec ldid -S \"{}\" 2> /dev/null \\;\nfind ${BUILT_PRODUCTS_DIR} -type f -iname '*.dylib' -exec chmod 0755 \"{}\" 2> /dev/null \\;\nfind ${BUILT_PRODUCTS_DIR} -type f -iname '*.dylib' -exec cp \"{}\" \"$PACKAGE_TEMP_FOLDER/Library/MobileSubstrate/DynamicLibraries\" \\;\n#${DEVELOPER_BIN_DIR}/actool --minimum-deployment-target ${IPHONEOS_DEPLOYMENT_TARGET} --platform ${PLATFORM_NAME} --compile \"$PACKAGE_TEMP_FOLDER/Library/Application Support/VKPlusPlus.bundle/\" \"${PROJECT_DIR}/VKPlus/Images.xcassets\" 2> /dev/null;\ncp \"${PROJECT_DIR}/VKPlus/Assets.car\" \"$PACKAGE_TEMP_FOLDER/Library/Application Support/VKPlusPlus.bundle/\"\nfind \"$PACKAGE_TEMP_FOLDER\" \\( -iname '*.strings' -o -iname '*.plist' \\) -exec plutil -convert binary1 \"{}\" \\;\n\necho \"[->] Cleaning (stage 1)...\"\nfind $PACKAGE_PROJECT_FOLDER -name \".DS_Store\" -exec rm -f {} \\;\n\necho \"[->] Updating control...\";\nsed -i '' \"s/CURRENT_PROJECT_VERSION/${CURRENT_PROJECT_VERSION}/g\" \"$PACKAGE_TEMP_FOLDER/DEBIAN/control\";\n\necho \"[->] Counting size...\";\nFOLDER_SIZE=$(du -sk $PACKAGE_TEMP_FOLDER);\nINSTALLED_SIZE=$(echo $FOLDER_SIZE | tr -dc '0-9' );\nsed -i '' \"s/PACKAGE_SIZE/${INSTALLED_SIZE}/g\" \"$PACKAGE_TEMP_FOLDER/DEBIAN/control\";\n\n\necho \"[->] Packaging...\";\nDEBS_FOLDER=\"${PROJECT_DIR}/debs\";\nif [ ! -d $DEBS_FOLDER ]; then\nmkdir $DEBS_FOLDER\nfi\n\nDEB_NAME=\"${PRODUCT_BUNDLE_IDENTIFIER}_${CURRENT_PROJECT_VERSION}_${PLATFORM_NAME}-arm.deb\";\ndpkg-deb -b -Zlzma $PACKAGE_TEMP_FOLDER $DEBS_FOLDER/$DEB_NAME 2> /dev/null;\n\necho \"[->] Cleaning (stage 2)...\";\nrm -rf $PACKAGE_TEMP_FOLDER;\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B8AA2B21354555000B5223 /* Compile assets */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Compile assets";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${DEVELOPER_BIN_DIR}/actool --minimum-deployment-target ${IPHONEOS_DEPLOYMENT_TARGET} --platform ${PLATFORM_NAME} --compile \"${BUILT_PRODUCTS_DIR}/$PRODUCT_NAME.app/$PRODUCT_NAME.bundle/\" \"${PROJECT_DIR}/VKPlus/Images.xcassets\" 2> /dev/null;\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B8AA9F21354A85000B5223 /* Copy files and build bundle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy files and build bundle";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"ls -1 ${BUILT_PRODUCTS_DIR}/*.dylib 2>/dev/null | wc -l\" == 0 ]]; then\necho \"${BUILT_PRODUCTS_DIR} does not contain any dylib file.\";\nexit 1;\nfi\n\nPACKAGE_BUNLDE_TEMPLATE=\"${PROJECT_DIR}/${PROJECT_NAME}/Package/Library/Application Support/$PRODUCT_NAME.bundle\";\nif [[ ! -d $PACKAGE_BUNLDE_TEMPLATE ]]; then\necho \"${PROJECT_DIR}/${PROJECT_NAME}/Package/Library/Application Support/$PRODUCT_NAME.bundle does not exits.\"\nexit 2;\nfi\n\n\nPACKAGE_TEMP_BUNDLE=\"${BUILT_PRODUCTS_DIR}/$PRODUCT_NAME.bundle\";\nif [ -d $PACKAGE_TEMP_BUNDLE ]; then\nrm -rf $PACKAGE_TEMP_BUNDLE;\nfi\n\necho \"[->] Copying binaries...\";\ncp -r \"$PACKAGE_BUNLDE_TEMPLATE\" \"$PACKAGE_TEMP_BUNDLE\";\nfind ${BUILT_PRODUCTS_DIR} -type f -iname '*.dylib' -exec ldid -S \"{}\" \\;\nfind ${BUILT_PRODUCTS_DIR} -type f -iname '*.dylib' -exec chmod 0755 \"{}\" \\;\nfind ${BUILT_PRODUCTS_DIR} -type f -iname '*.dylib' -exec cp \"{}\" \"$PACKAGE_TEMP_BUNDLE/\" \\;\n#${DEVELOPER_BIN_DIR}/actool --minimum-deployment-target ${IPHONEOS_DEPLOYMENT_TARGET} --platform ${PLATFORM_NAME} --compile \"$PACKAGE_TEMP_BUNDLE/\" \"${PROJECT_DIR}/VKPlus/Images.xcassets\";\ncp \"${PROJECT_DIR}/VKPlus/Assets.car\" \"$PACKAGE_TEMP_BUNDLE/\"\nfind \"$PACKAGE_TEMP_BUNDLE\" \\( -iname '*.strings' -o -iname '*.plist' \\) -exec plutil -convert binary1 \"{}\" \\;\n\necho \"[->] Cleaning (stage 1)...\"\nfind \"$PACKAGE_TEMP_BUNDLE\" -name \".DS_Store\" -exec rm -f {} \\;\n\necho \"[->] Packaging...\";\ncd \"${BUILT_PRODUCTS_DIR}\"\nzip -9qr \"${PROJECT_DIR}/debs/${PRODUCT_BUNDLE_IDENTIFIER}_${CURRENT_PROJECT_VERSION}.bundle.zip\" \"./$PRODUCT_NAME.bundle\"\n\necho \"[->] Cleaning (stage 2)...\";\nrm -rf \"$PACKAGE_TEMP_BUNDLE\";\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53D50DC211E1D29001A0912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58B54EE212D877C00B9D644 /* VKParamsProxyModel.m in Sources */,
+				A5DBD76C21D7E6D500E109FE /* VKParamsTabbar.m in Sources */,
+				A59B6489215F9DFD00E13DAC /* UITabBarItem+VKPlus.m in Sources */,
+				A582CD7021612C450047649B /* UITableViewCell+VKPlus.m in Sources */,
+				A56C821821611A3D003092A6 /* VKPlusPrefsTableView.m in Sources */,
+				A5F0248B212FDA810094502D /* SCParser.m in Sources */,
+				A5DBD76921D7E37600E109FE /* VKParamsFeed.m in Sources */,
+				A5818A7621245B7700294F13 /* VKParamsTabbarModel.m in Sources */,
+				A5CEE9282154FD9300927334 /* VKPlusBlacklist.m in Sources */,
+				A5DBD75F21D7E13700E109FE /* VKParamsMain.m in Sources */,
+				A559E36F211ED80800854784 /* PSTableCellHook.m in Sources */,
+				A5DBD76121D7E15100E109FE /* VKParamsUserPrefs.m in Sources */,
+				A5C05AE0212C70B100CDD7BF /* VKParamsProxyEditController.m in Sources */,
+				A54DA537212C04BA00750032 /* VKParamsModernNetwork.m in Sources */,
+				A5E4B5A92125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m in Sources */,
+				A5DBD76821D7E2ED00E109FE /* VKParamsMessages.m in Sources */,
+				A5FAE5AF2121DD8A005BB609 /* VKParamsMainPreferences.m in Sources */,
+				A5D34EC62135552A00960FF7 /* UIImage+VKPlus.m in Sources */,
+				A5C05AEA212C8B4C00CDD7BF /* VKParamsImages.m in Sources */,
+				A5FAE59F2121CF80005BB609 /* VKParamsFeedPrefs.m in Sources */,
+				A540F3252141364D00FF5779 /* VKPlusAvatarButton.m in Sources */,
+				A5DE38562122E98200D5C8B6 /* VKParamsSwitchPrefsCell.m in Sources */,
+				A59CC85A212DB2000076D328 /* VKParamsProxyPrefsCell.m in Sources */,
+				A5DBD76021D7E15100E109FE /* VKParamsFunctions.m in Sources */,
+				A53E5D6321254D2A00220D92 /* VKParamsTabbarPrefs.m in Sources */,
+				A5F02499212FE16D0094502D /* VKParamsHostPinger.m in Sources */,
+				A5C05AF0212C956100CDD7BF /* VKParamsTickView.m in Sources */,
+				A58B54F7212D9D6500B9D644 /* VKParamsNavigationController.m in Sources */,
+				A5F02488212FDA780094502D /* SimplePing.m in Sources */,
+				A5C05ADB212C5B1300CDD7BF /* VKParamsButtonCell.m in Sources */,
+				A540F339214138E300FF5779 /* VKPlusNetwork.m in Sources */,
+				A58B54E7212D681600B9D644 /* VKParamsTextPrefsCell.m in Sources */,
+				A540F32D2141387800FF5779 /* VKPlusUserModel.m in Sources */,
+				A5DBD76621D7E2B500E109FE /* VKParamsNews.m in Sources */,
+				A5A6BE6621289D3A0097440A /* VKParamsTabbarModel+AutomaticCreation.m in Sources */,
+				A5C05AD0212C51D100CDD7BF /* VKParamsProxyPrefs.m in Sources */,
+				A5AB0117212049C200874580 /* VKParamsPreferences.m in Sources */,
+				A5CEE9222154D78900927334 /* VKParamsTabbarModel+VKModule.m in Sources */,
+				A5D34ED42135671D00960FF7 /* VKPlusAvatarProcessor.m in Sources */,
+				A5D34EDB21357D3F00960FF7 /* VKPlusImageCache.m in Sources */,
+				A5D34EBF2135548600960FF7 /* NSBundle+VKPlus.m in Sources */,
+				A5C05AE5212C8A9400CDD7BF /* VKParamsSelectionCell.m in Sources */,
+				A529D03F2122F299005F4B5B /* VKParamsOtherPrefs.m in Sources */,
+				A5D34ECD2135558800960FF7 /* NSUserDefaults+VKPlus.m in Sources */,
+				A5DE38522122C74700D5C8B6 /* VKParamsMessagesPrefs.m in Sources */,
+				A5D9A356213D799900641792 /* VKPlusMusicPrefs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B8AA5C21354A85000B5223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B8AA5D21354A85000B5223 /* VKParamsProxyModel.m in Sources */,
+				A59B648A215F9DFD00E13DAC /* UITabBarItem+VKPlus.m in Sources */,
+				A5B8AA5E21354A85000B5223 /* VKParamsMessages.m in Sources */,
+				A582CD7121612C450047649B /* UITableViewCell+VKPlus.m in Sources */,
+				A56C821A21611A3D003092A6 /* VKPlusPrefsTableView.m in Sources */,
+				A5B8AA5F21354A85000B5223 /* VKParamsFeed.m in Sources */,
+				A5B8AA6021354A85000B5223 /* SCParser.m in Sources */,
+				A5B8AA6121354A85000B5223 /* VKParamsTabbarModel.m in Sources */,
+				A5CEE9292154FD9300927334 /* VKPlusBlacklist.m in Sources */,
+				A5B8AA6221354A85000B5223 /* PSTableCellHook.m in Sources */,
+				A5B8AA6321354A85000B5223 /* VKParamsProxyEditController.m in Sources */,
+				A5B8AA6421354A85000B5223 /* VKParamsModernNetwork.m in Sources */,
+				A5B8AA6521354A85000B5223 /* VKParamsTabbarPrefsContext.m in Sources */,
+				A5B8AA6621354A85000B5223 /* VKParamsMainPreferences.m in Sources */,
+				A5D34EC82135552A00960FF7 /* UIImage+VKPlus.m in Sources */,
+				A5B8AA6721354A85000B5223 /* VKParamsImages.m in Sources */,
+				A5B8AA6821354A85000B5223 /* VKParamsFeedPrefs.m in Sources */,
+				A540F3262141364D00FF5779 /* VKPlusAvatarButton.m in Sources */,
+				A5B8AA6921354A85000B5223 /* VKParamsNews.m in Sources */,
+				A5B8AA6A21354A85000B5223 /* VKParamsSwitchPrefsCell.m in Sources */,
+				A5B8AA6B21354A85000B5223 /* VKParamsProxyPrefsCell.m in Sources */,
+				A531B12E213BD28400D45222 /* VKParamsUserPrefs.m in Sources */,
+				A5B8AA6D21354A85000B5223 /* VKParamsTabbarPrefs.m in Sources */,
+				A5B8AA6E21354A85000B5223 /* VKParamsHostPinger.m in Sources */,
+				A5B8AA6F21354A85000B5223 /* VKParamsTickView.m in Sources */,
+				A5B8AA7021354A85000B5223 /* VKParamsNavigationController.m in Sources */,
+				A5B8AA7121354A85000B5223 /* SimplePing.m in Sources */,
+				A5B8AA7221354A85000B5223 /* VKParamsButtonCell.m in Sources */,
+				A540F33A214138E300FF5779 /* VKPlusNetwork.m in Sources */,
+				A5B8AA7321354A85000B5223 /* VKParamsTextPrefsCell.m in Sources */,
+				A540F32E2141387800FF5779 /* VKPlusUserModel.m in Sources */,
+				A5B8AA7521354A85000B5223 /* VKParamsTabbarModel+AutomaticCreation.m in Sources */,
+				A5B8AA7621354A85000B5223 /* VKParamsProxyPrefs.m in Sources */,
+				A5B8AA7721354A85000B5223 /* VKParamsFunctions.m in Sources */,
+				A5B8AA7821354A85000B5223 /* VKParamsMain.m in Sources */,
+				A5B8AA7921354A85000B5223 /* VKParamsPreferences.m in Sources */,
+				A5CEE9232154D78900927334 /* VKParamsTabbarModel+VKModule.m in Sources */,
+				A5D34ED62135671D00960FF7 /* VKPlusAvatarProcessor.m in Sources */,
+				A531B12D213BB8F000D45222 /* VKPlusImageCache.m in Sources */,
+				A5D34EC12135548600960FF7 /* NSBundle+VKPlus.m in Sources */,
+				A5B8AA7A21354A85000B5223 /* VKParamsTabbar.m in Sources */,
+				A5B8AA7B21354A85000B5223 /* VKParamsSelectionCell.m in Sources */,
+				A5B8AA7C21354A85000B5223 /* VKParamsOtherPrefs.m in Sources */,
+				A5D34ECF2135558800960FF7 /* NSUserDefaults+VKPlus.m in Sources */,
+				A5B8AA7D21354A85000B5223 /* VKParamsMessagesPrefs.m in Sources */,
+				A5D9A357213D799900641792 /* VKPlusMusicPrefs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CA593421274B5600CDAD18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C05AE1212C70B100CDD7BF /* VKParamsProxyEditController.m in Sources */,
+				A56C821921611A3D003092A6 /* VKPlusPrefsTableView.m in Sources */,
+				A5C05ADC212C5B1300CDD7BF /* VKParamsButtonCell.m in Sources */,
+				A5680A8821274C3C00B2C802 /* VKParamsMainPreferences.m in Sources */,
+				A5680A8B21274C3C00B2C802 /* VKParamsMessagesPrefs.m in Sources */,
+				A5D34ECE2135558800960FF7 /* NSUserDefaults+VKPlus.m in Sources */,
+				A5680A9021274C4C00B2C802 /* VKParamsTabbarModel.m in Sources */,
+				A5F0249A212FE18A0094502D /* VKParamsHostPinger.m in Sources */,
+				A5CA594A21274B5800CDAD18 /* main.m in Sources */,
+				A5680A8F21274C3C00B2C802 /* VKParamsSwitchPrefsCell.m in Sources */,
+				A5D34EC72135552A00960FF7 /* UIImage+VKPlus.m in Sources */,
+				A5C05AE6212C8A9400CDD7BF /* VKParamsSelectionCell.m in Sources */,
+				A5F02491212FDDA40094502D /* SCParser.m in Sources */,
+				A5C05AF1212C956100CDD7BF /* VKParamsTickView.m in Sources */,
+				A58B54EA212D68C900B9D644 /* VKParamsTextPrefsCell.m in Sources */,
+				A59CC85D212DB31C0076D328 /* VKParamsProxyPrefsCell.m in Sources */,
+				A5680A9621274FD600B2C802 /* PSTableCellHook.m in Sources */,
+				A5680A8D21274C3C00B2C802 /* VKParamsTabbarPrefsContext.m in Sources */,
+				A5D34EC02135548600960FF7 /* NSBundle+VKPlus.m in Sources */,
+				A5C05AD1212C520400CDD7BF /* VKParamsProxyPrefs.m in Sources */,
+				A5C05AEB212C8B4C00CDD7BF /* VKParamsImages.m in Sources */,
+				A58B54EF212D8B0700B9D644 /* VKParamsProxyModel.m in Sources */,
+				A5A6BE6721289D3D0097440A /* VKParamsTabbarModel+AutomaticCreation.m in Sources */,
+				A5F0248E212FDDA20094502D /* SimplePing.m in Sources */,
+				A5CA593C21274B5600CDAD18 /* AppDelegate.m in Sources */,
+				A5680A8721274C3C00B2C802 /* VKParamsPreferences.m in Sources */,
+				A5D9A358213D799E00641792 /* VKPlusMusicPrefs.m in Sources */,
+				A5680A8E21274C3C00B2C802 /* VKParamsTabbarPrefs.m in Sources */,
+				A5680A8C21274C3C00B2C802 /* VKParamsOtherPrefs.m in Sources */,
+				A5680A8921274C3C00B2C802 /* VKParamsFeedPrefs.m in Sources */,
+				A58B54F8212DA0DC00B9D644 /* VKParamsNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5CA594021274B5600CDAD18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5CA594121274B5600CDAD18 /* Base */,
+				A5F024A2212FF8E00094502D /* ru */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5CA594521274B5800CDAD18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5CA594621274B5800CDAD18 /* Base */,
+				A5F024A3212FF8E00094502D /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A53D50F0211E1D29001A0912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "0.23-b";
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VW97WHTS78;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VKPlus/Support/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PRODUCT_BUNDLE_IDENTIFIER=${PRODUCT_BUNDLE_IDENTIFIER}",
+					"CURRENT_PROJECT_VERSION=$(CURRENT_PROJECT_VERSION)",
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Subprojects\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				LLVM_LTO = YES_THIN;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.danpashin.vkparams;
+				PRODUCT_NAME = VKPlusPlus;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(iOSOpenDevPath)/frameworks/**";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		A53D50F1211E1D29001A0912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "0.23-b";
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VW97WHTS78;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VKPlus/Support/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"PRODUCT_BUNDLE_IDENTIFIER=${PRODUCT_BUNDLE_IDENTIFIER}",
+					"CURRENT_PROJECT_VERSION=$(CURRENT_PROJECT_VERSION)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Subprojects\"/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				LLVM_LTO = YES_THIN;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.danpashin.vkparams;
+				PRODUCT_NAME = VKPlusPlus;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(iOSOpenDevPath)/frameworks/**";
+				SYSTEM_HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		A53D50F3211E1D29001A0912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3994D1DA87DA50F47A4A95F4 /* Pods-VKPlusPlus.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					COMPILE_DEB,
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+			};
+			name = Debug;
+		};
+		A53D50F4211E1D29001A0912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B7FE8BF12ED7AAF526D24B /* Pods-VKPlusPlus.release.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					COMPILE_DEB,
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+			};
+			name = Release;
+		};
+		A5B8AAA121354A85000B5223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0E245B02BAC268B7110B92 /* Pods-VKPlusPlus Bundle.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					COMPILE_BUNDLE,
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+			};
+			name = Debug;
+		};
+		A5B8AAA221354A85000B5223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F800592A3EFF8DEB649B6D1 /* Pods-VKPlusPlus Bundle.release.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					COMPILE_BUNDLE,
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+			};
+			name = Release;
+		};
+		A5CA594C21274B5800CDAD18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075B13FDB96D3C7211908EFB /* Pods-VKPlusPrefs.debug.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					COMPILE_APP,
+				);
+				INFOPLIST_FILE = VKPlusPrefs/Info.plist;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Debug;
+		};
+		A5CA594D21274B5800CDAD18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821C6E96812F37262E3B217F /* Pods-VKPlusPrefs.release.xcconfig */;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					COMPILE_APP,
+				);
+				INFOPLIST_FILE = VKPlusPrefs/Info.plist;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53D50DB211E1D29001A0912 /* Build configuration list for PBXProject "VKPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D50F0211E1D29001A0912 /* Debug */,
+				A53D50F1211E1D29001A0912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53D50F2211E1D29001A0912 /* Build configuration list for PBXNativeTarget "VKPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D50F3211E1D29001A0912 /* Debug */,
+				A53D50F4211E1D29001A0912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B8AAA021354A85000B5223 /* Build configuration list for PBXNativeTarget "VKPlusPlus Bundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B8AAA121354A85000B5223 /* Debug */,
+				A5B8AAA221354A85000B5223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5CA594B21274B5800CDAD18 /* Build configuration list for PBXNativeTarget "VKPlusPrefs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CA594C21274B5800CDAD18 /* Debug */,
+				A5CA594D21274B5800CDAD18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53D50D8211E1D29001A0912 /* Project object */;
+}

@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.h
+//  VKParams
+//
+//  Created by Даниил on 11/08/2018.
+//  Copyright © 2018 Даниил. All rights reserved.
+//
+
+#import "NSBundle+VKPlus.h"
+#import "UIImage+VKPlus.h"
+#import "NSUserDefaults+VKPlus.h"
+#import <NSObject+SCPreferences.h>
+
+#define VKPStringize_internal(string) #string
+#define VKPStringize(string) @VKPStringize_internal(string)
+
+#define VKPLocalized(key) [[NSBundle vkp_defaultBundle] localizedStringForKey:(key) value:@"" table:nil]
+
+static NSString *const productBundleIdentifier = VKPStringize(PRODUCT_BUNDLE_IDENTIFIER);
+static NSString *const productBundleVersion = VKPStringize(CURRENT_PROJECT_VERSION);
+static NSString *const productAPIURL = @"https://api.danpashin.ru/v1.3/";
+static NSString *const appAccessToken = @"b5c0b2ebb5c0b2ebb5c0b2ebabb5a56650bb5c0b5c0b2ebee425f98639bb32057229c21";
+
+//#ifdef DEBUG
+#import <mach/mach_time.h>
+#define TICK const uint64_t startTime = mach_absolute_time();
+#define TOCK const uint64_t elapsedMTU = mach_absolute_time() - startTime;\
+mach_timebase_info_data_t info;\
+mach_timebase_info(&info)\
+VKPLOG(@"Time elapsed: %.1f", ((double)elapsedMTU * (double)info.numer / (double)info.denom));
+
+#define VKPLOG(format, ...)    NSLog((@"[VKPlusPlus] %@:%d %s " format), @(__FILE__).lastPathComponent, __LINE__, __FUNCTION__, ##__VA_ARGS__)
+//#else
+//#define TICK
+//#define TOCK
+//#define VKPLOG(format, ...)
+//#endif
+
+#define NIGHT_THEME_DISABLE_CUSTOMISATION(view) objc_setAssociatedObject(view, "cvk_night_theme_should_customize", @NO, OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+#define NIGHT_THEME_SHOULD_CUSTOMIZE(view)      objc_getAssociatedObject(view, "cvk_night_theme_should_customize")

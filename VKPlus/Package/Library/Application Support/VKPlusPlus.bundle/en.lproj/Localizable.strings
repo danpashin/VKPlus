@@ -1,0 +1,144 @@
+/* 
+  Localizable.strings
+  VKParams
+
+  Created by Даниил on 24/08/2018.
+  Copyright © 2018 Даниил. All rights reserved.
+*/
+
+//  Системные кнопки
+"Reset" = "Reset";
+"Remove" = "Remove";
+"Set" = "Set";
+"Add" = "Add";
+
+//  Таббар - дефолтные вкладки
+"News" = "News";
+"Recommendations" = "Recommendations";
+"Messages" = "Messages";
+"Notifications" = "Notifications";
+"More" = "More";
+
+//  Таббар - дополнительные вкладки
+"Live Streams" = "Live Streams";
+"Games" = "Games";
+"Videos" = "Videos";
+"Settings" = "Settings";
+"Bookmarks" = "Bookmarks";
+"Music" = "Music";
+"Communities" = "Communities";
+"Friends" = "Friends";
+"Photos" = "Photos";
+"Documents" = "Documents";
+
+//  Таббар - настройки
+"Displayed tabs" = "Displayed tabs";
+"Displayed_tabs_footer" = "You can hide, reorder, or add tabs as needed. At the same time, the tabbar can contain at least 1 and no more than 5 tabs.\n\nThe main tab (the one that opens automatically after launching the app) is marked with a tick.";
+"Hidden" = "Hidden";
+
+//"Main tab" = "Main tab";
+//"Main_tab_set_alert_question" = "Do you really want to make this tab the main one? When you start the application, it will open automatically.";
+
+//  Настройки - основные
+"News feed" = "News feed";
+"Tab bar" = "Tab bar";
+"Network and proxy" = "Network and proxy";
+"Miscellaneous" = "Miscellaneous";
+
+
+//  Фидлента
+"Disable ads" = "Disable ads";
+"Disable_ads_footer" = "All ads, including group posts marked with a special sign, will be disabled.";
+
+"hide_promoted_stickers" = "Hide advertising stickers";
+"hide_promoted_stickers_footer" = "A huge part of the stickers in the client - advertising. You can hide them if you want to see stickers only from independent authors.";
+
+"Hide friend's likes" = "Hide friend's likes";
+"Hide_friends_likes_footer" = "Disables the inscription 'Liked...', which is shown at the top of the entry.";
+
+"Hide featured comments" = "Hide featured comments";
+"Hide_featured_comments_footer" = "By default, the most featured comment can be shown under the post. This function hides such comments.";
+
+"Disable inline comments" = "Disable inline comments";
+"Disable_inline_comments_footer" = "As VK states, 'to share your opinion, you no longer need to open the post page'. But, do we really need this feature?";
+
+"Show poll results" = "Show the results of the vote";
+"Show_poll_results_footer" = "By default, voting results are hidden until you select an answer. This option disables this hiding.";
+
+"Save traffic" = "Save traffic";
+"Save_traffic_footer" = "Preview of images, links, AutoPlay of video and GIF files will be disabled. This setting affects only the feed of the feed.";
+
+"Creating posts" = "Creating posts";
+"Enable new design" = "Enable new design";
+"Enable_new_design_footer" = "It turns out that since ancient times VK has been testing a new design for creating posts and editing comments. But for some reason, this is known only to the company. This feature makes it possible to become an invisible tester of this design.";
+
+
+//  Новости
+"Disable left side swipe" = "Disable side swipe";
+"Disable_left_side_swipe_footer" = "By default, the VK App adds a side-swipe for quick access to the camera. This feature allows you to disable it, thereby reducing the likelihood of accidental swipes.";
+
+"Disable recommended friends" = "Disable recommended friends";
+"Disable_recommended_friends_footer" = "Sometimes the feed skips a block with recommended friends. This feature allows you to hide it.";
+
+"Stories" = "Stories";
+"Hide stories" = "Hide stories";
+"Disable reading stories" = "Disable reading stories";
+
+
+//  Сообщения
+"Disable reading messages" = "Disable reading messages";
+"Hide typing" = "Hide typing";
+"Hide_typing_footer" = "When you type a message, the other person sees the appropriate notification. Enable this feature if you do not want to notify your companion about the typing.";
+
+"Hide call button" = "Remove call button";
+"Hide_call_button_footer" = "In VK App 4.0 introduced the ability to communicate directly with the interlocutor - through calls. Feature of course cool, but at the same time they replaced the button to go to the profile with the call button. The question is, why? After all, to see the page of the interlocutor has become much more difficult. This function is designed to remove unnecessary call button and replace with the old transition to the profile.";
+
+"badge" = "Badge";
+"hide_messages_badge" = "Hide badge";
+"messages_badge_custom_text" = "Custom text";
+"messages_badge_footer" = "The badge usually shows the number of unread messages. You can hide this badge or type your own text on it.";
+
+
+//  Музыка
+"Bypass music block" = "Bypass block";
+"Bypass_music_block_footer" = "In the fall of 2017 VK started to block music in third-party clients. Enabling this option can help restore it to a normal state. You'll need to reauthorize your account to apply the setting.\n\nWARNING! Use this feature with caution, it can lead to complete blocking of music even in the original app from the AppStore!";
+
+"Disable 30 minute limit" = "Disable 30-minute limit";
+"Disable_30_minute_limit_footer" = "Since the same autumn of 2017, VK has introduced a 30-minute listening limit in the background. This option disables this restriction.";
+
+
+//  Другое
+"Disable safe links" = "Disable safe links";
+
+"Profile" = "Profile";
+"Disable age restriction" = "Disable age restriction";
+"Disable_age_restriction_footer" = "Apple's App Store policy does not allow apps that contain adult content to be placed on the App Store. Therefore, VK blocks access to some pages. This option turns off the blocking of these pages.";
+
+"Bypass blacklist" = "Bypass blacklist";
+"Bypass_blacklist_footer" = "Community admin threw you on the blacklist? No problem. Now you can view the group's profile in read-only mode (i.e. only read the wall and comments to posts). Will only work if the community is open to everyone.";
+
+
+//  Прокси
+"OAuth domain" = "OAuth domain";
+"API domain" = "API domain";
+
+"Disable SSL certificate check" = "Disable SSL certificate check";
+"Use proxy" = "Use proxy";
+"Use_proxy_footer" = "Warning! The developer of the program and all people involved in this program disclaim all responsibility for your use of the proxy and domains other than vk.com. All the possible consequences (including transfer of your personal data to third parties) you assume.";
+"Saved proxy" = "Saved proxy";
+
+"Change proxy" = "Change proxy";
+"Type" = "Type";
+"Connection" = "Connection";
+"Server" = "Server";
+"Enter server address" = "Enter server address";
+"Port" = "Port";
+"Enter port number" = "Enter port number";
+"Authorization_optional" = "Authorization (optional)";
+"Login" = "Login";
+"Enter login" = "Enter login";
+"Password" = "Password";
+"Enter password" = "Enter password";
+
+"%@, ping %.0f ms" = "%@, ping %.0f ms";
+"%@, ping unknown" = "%@, ping unknown";
