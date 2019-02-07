@@ -18,7 +18,11 @@
     dispatch_once(&onceToken, ^{
         
 #ifdef COMPILE_DEB
-        vkp_defaultBundle = [NSBundle bundleWithPath:@"/Library/Application Support/VKPlusPlus.bundle"];
+        if (@available(iOS 12.0, *)) {
+            vkp_defaultBundle = [NSBundle bundleWithPath:@"/var/LIB/Application Support/VKPlusPlus.bundle"];
+        } else {
+            vkp_defaultBundle = [NSBundle bundleWithPath:@"/Library/Application Support/VKPlusPlus.bundle"];
+        }
 #else
         NSString *path = [[NSBundle mainBundle] pathForResource:@"VKPlusPlus" ofType:@"bundle"];
         vkp_defaultBundle = [NSBundle bundleWithPath:path];
