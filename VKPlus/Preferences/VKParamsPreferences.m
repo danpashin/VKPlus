@@ -8,13 +8,16 @@
 
 #import "VKParamsPreferences.h"
 #import "VKPlusPrefsTableView.h"
+#import <objc/runtime.h>
 
 extern void reloadPrefs(void);
 #ifdef COMPILE_APP
 void reloadPrefs(void) {};
 #endif
 
-@interface VKParamsPreferences ()
+@interface VKParamsPreferences () {
+    UINavigationItem *_navigationItem;
+}
 
 @end
 
@@ -73,6 +76,20 @@ void reloadPrefs(void) {};
     reloadPrefs();
 }
 
+
+- (UINavigationItem *)navigationItem
+{
+    Class VANavigationItemClass = objc_lookUpClass("VANavigationItem");
+    if (VANavigationItemClass && !_navigationItem) {
+        _navigationItem = [[VANavigationItemClass alloc] init];
+    }
+    
+    if (!_navigationItem) {
+        _navigationItem = super.navigationItem;
+    }
+    
+    return _navigationItem;
+}
 
 
 - (PSSpecifier *)linkSpecifierWithName:(NSString *)name detailClass:(Class)detailClass

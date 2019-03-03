@@ -18,7 +18,7 @@
     dispatch_once(&onceToken, ^{
         
 #ifdef COMPILE_DEB
-        if (@available(iOS 12.0, *)) {
+        if ([[NSFileManager defaultManager] fileExistsAtPath:@"/var/LIB/MobileSubstrate/DynamicLibraries/VKPlusPlus.dylib"]) {
             vkp_defaultBundle = [NSBundle bundleWithPath:@"/var/LIB/Application Support/VKPlusPlus.bundle"];
         } else {
             vkp_defaultBundle = [NSBundle bundleWithPath:@"/Library/Application Support/VKPlusPlus.bundle"];

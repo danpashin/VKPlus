@@ -11,6 +11,7 @@ Section: Tweaks
 Installed-size: PACKAGE_SIZE
 Depiction: https://danpashin.ru/repo/depictions?package=ru.danpashin.vkplusplus
 SileoDepiction: https://danpashin.ru/repo/depictions?package=ru.danpashin.vkplusplus
-Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
 Replaces: ru.danpashin.vknoads, ru.danpashin.vknoadult, ru.rejail.vknoadult, ru.precisef0x.vk30minlimitkiller
 Conflicts: ru.danpashin.vknoads, ru.danpashin.vknoadult, ru.rejail.vknoadult, ru.precisef0x.vk30minlimitkiller
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
