@@ -18,7 +18,6 @@
 
 static NSString *const productBundleIdentifier = VKPStringize(PRODUCT_BUNDLE_IDENTIFIER);
 static NSString *const productBundleVersion = VKPStringize(CURRENT_PROJECT_VERSION);
-static NSString *const productAPIURL = @"https://api.danpashin.ru/v1.3/";
 static NSString *const appAccessToken = @"b5c0b2ebb5c0b2ebb5c0b2ebabb5a56650bb5c0b5c0b2ebee425f98639bb32057229c21";
 
 //#ifdef DEBUG

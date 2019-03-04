@@ -6,6 +6,11 @@
   Copyright © 2018 Даниил. All rights reserved.
 */
 
+"Reset preferences" = "Сбросить настройки";
+"reset_preferences_alert_title" = "Сброс настроек";
+"reset_preferences_alert_subtitle" = "Вы действительно хотите выполнить сброс настроек? Это действие необратимо.";
+"reset_preferences_confirmation" = "Сбросить";
+
 //  Системные кнопки
 "Reset" = "Сбросить";
 "Remove" = "Удалить";

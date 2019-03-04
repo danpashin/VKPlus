@@ -13,10 +13,14 @@
 #import "VKParamsOtherPrefs.h"
 #import "VKParamsTabbarPrefsContext.h"
 #import "VKParamsProxyPrefs.h"
+#import <SCAlertController.h>
 
 @interface VKParamsMainPreferences ()
 
 @end
+
+extern BOOL shouldUpdateTabbar;
+extern void reloadPrefs(void);
 
 @implementation VKParamsMainPreferences
 
@@ -58,6 +62,14 @@ NSString *applicationBuildNumber = @"0";
         [otherSpecifier setProperty:[UIImage vkp_iconNamed:@"settings/more"] forKey:@"iconImage"];
         [mutableSpecifiers addObject:otherSpecifier];
         
+        PSSpecifier *resetPrefsSpec = [PSSpecifier preferenceSpecifierNamed:VKPLocalized(@"Reset preferences") 
+                                                                     target:self set:nil 
+                                                                        get:nil detail:nil cell:PSButtonCell edit:nil];
+        resetPrefsSpec.buttonAction = @selector(resetPreferences);
+        [resetPrefsSpec setProperty:@YES forKey:@"shouldCenter"];
+        [resetPrefsSpec setProperty:@"Destructive" forKey:@"style"];
+        [mutableSpecifiers addObjectsFromArray:@[[PSSpecifier emptyGroupSpecifier], resetPrefsSpec]];
+        
         PSSpecifier *footer = [PSSpecifier emptyGroupSpecifier];
         [footer setProperty:self.footerText forKey:@"footerText"];
         [footer setProperty:@"1" forKey:@"footerAlignment"];
@@ -85,6 +97,20 @@ NSString *applicationBuildNumber = @"0";
     [super viewDidLoad];
     
     self.title = @"VK++";
+}
+
+- (void)resetPreferences
+{
+    SCAlertController *alert = [SCAlertController alertControllerWithTitle:VKPLocalized(@"reset_preferences_alert_title") 
+                                                                   message:VKPLocalized(@"reset_preferences_alert_subtitle")];
+    [alert addCancelAction];
+    [alert addAction:[UIAlertAction actionWithTitle:VKPLocalized(@"reset_preferences_confirmation") style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        [NSUserDefaults vkp_resetDefault];
+        
+        shouldUpdateTabbar = YES;
+        reloadPrefs();
+    }]];
+    [alert present];
 }
 
 - (void)presentTabbarController

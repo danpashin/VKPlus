@@ -134,9 +134,10 @@ extern long long cachedUnreadMessagesCount;
 
 + (void)resetSettingsWithCompletion:(void(^)(void))completion
 {
-    SCAlertController *alert = [SCAlertController alertControllerWithTitle:@"Сброс настроек" message:@"Вы действительно хотите сбросить настройки?"];
+    SCAlertController *alert = [SCAlertController alertControllerWithTitle:VKPLocalized(@"reset_preferences_alert_title") 
+                                                                   message:VKPLocalized(@"reset_preferences_alert_subtitle")];
     [alert addCancelAction];
-    [alert addAction:[UIAlertAction actionWithTitle:@"Сбросить" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+    [alert addAction:[UIAlertAction actionWithTitle:VKPLocalized(@"reset_preferences_confirmation") style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
         if (completion)
             completion();
         

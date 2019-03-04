@@ -234,8 +234,10 @@ BOOL shouldUpdateTabbar;
 
 - (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (indexPath.section == 0)
-        return UITableViewCellEditingStyleDelete;
+    if (indexPath.section == 0) {
+        VKParamsTabbarModel *model = self.enabledModels[indexPath.row];
+        return [model.modelSelector isEqualToString:@"menu"] ? UITableViewCellEditingStyleNone : UITableViewCellEditingStyleDelete;
+    }
     
     return UITableViewCellEditingStyleInsert;
 }
@@ -245,8 +247,11 @@ BOOL shouldUpdateTabbar;
     NSUInteger countOfEnabledModels = self.enabledModels.count;
     if (sourceIndexPath.section == 1 && proposedDestinationIndexPath.section == 0 && countOfEnabledModels >= 5) {
         return sourceIndexPath;
-    } else if (sourceIndexPath.section == 0 && proposedDestinationIndexPath.section == 1 && countOfEnabledModels <= 1) {
-        return sourceIndexPath;
+    } else if (sourceIndexPath.section == 0 && proposedDestinationIndexPath.section == 1) {
+        VKParamsTabbarModel *model = self.enabledModels[sourceIndexPath.row];
+        if ([model.modelSelector isEqualToString:@"menu"] || countOfEnabledModels <= 1) {
+            return sourceIndexPath;
+        }
     }
     
     return proposedDestinationIndexPath;

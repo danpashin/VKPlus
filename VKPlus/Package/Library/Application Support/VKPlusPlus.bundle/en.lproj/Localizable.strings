@@ -6,6 +6,11 @@
   Copyright © 2018 Даниил. All rights reserved.
 */
 
+"Reset preferences" = "Reset preferences";
+"reset_preferences_alert_title" = "Reset preferences";
+"reset_preferences_alert_subtitle" = "Do you really want to reset preferences? This action is irreversible.";
+"reset_preferences_confirmation" = "Reset";
+
 //  Системные кнопки
 "Reset" = "Reset";
 "Remove" = "Remove";

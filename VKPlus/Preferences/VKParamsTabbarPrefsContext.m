@@ -46,7 +46,12 @@
     self.tabbarPrefsController = [[VKParamsTabbarPrefs alloc] initForContentSize:blockSize];
     self.tabbarPrefsController.delegate = self;
     
-    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.tabbarPrefsController];
+    Class UINavigationControllerClass = objc_lookUpClass("VANavigationController");
+    if (!UINavigationControllerClass) {
+        UINavigationControllerClass = [UINavigationController class];
+    }
+    
+    self.navigationController = [[UINavigationControllerClass alloc] initWithRootViewController:self.tabbarPrefsController];
     self.navigationController.transitioningDelegate = self;
     self.navigationController.modalPresentationStyle = UIModalPresentationOverFullScreen;
     
