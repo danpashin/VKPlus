@@ -5,12 +5,12 @@ DEPENDENCIES:
   - VKMusicBypass
 
 SPEC REPOS:
-  https://github.com/daniilpashin/DeveletoryPod.git:
+  https://github.com/danpashin/DeveletoryPod.git:
     - VKMusicBypass
 
 SPEC CHECKSUMS:
-  VKMusicBypass: b75e5e580796d1bd53c4e1f6280ba7eec4cb294f
+  VKMusicBypass: c1ec8fe137d4accb03b907c881fbb0420155ebd9
 
-PODFILE CHECKSUM: 1ae46de1e752f3f7f670ce7f34591e5a3c9050f4
+PODFILE CHECKSUM: a22046fd24e99e0fa94a8dc96da253211a5b5f98
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.7.5
