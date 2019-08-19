@@ -1,5 +1,5 @@
 PODS:
-  - VKMusicBypass (0.3)
+  - VKMusicBypass (0.4)
 
 DEPENDENCIES:
   - VKMusicBypass
@@ -9,7 +9,7 @@ SPEC REPOS:
     - VKMusicBypass
 
 SPEC CHECKSUMS:
-  VKMusicBypass: c1ec8fe137d4accb03b907c881fbb0420155ebd9
+  VKMusicBypass: 5b3f49ecdf45c62a26c8161a82db7b4bef407afb
 
 PODFILE CHECKSUM: a22046fd24e99e0fa94a8dc96da253211a5b5f98
 
