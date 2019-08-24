@@ -55,13 +55,11 @@ CHDeclareClassMethod(4, id, VKUtil, safeBrowserURL, id, url, awayToken, id, away
 
 
 __strong NSNumber *currentUserID;
-long long userAge = 0;
 CHDeclareClass(VKSession);
 CHDeclareMethod(1, void, VKSession, setSessionUser, VKUserProfile *, userProfile)
 {
    CHSuper(1, VKSession, setSessionUser, userProfile);
    
-   userAge = userProfile.age;
    currentUserID = [userProfile.user.uid copy];
    
    NSUserDefaults *userDefaults = [NSUserDefaults vkp_standartDefaults];

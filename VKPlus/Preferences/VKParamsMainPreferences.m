@@ -88,7 +88,7 @@ NSString *applicationBuildNumber = @"0";
     
     NSString *footerText = [NSString stringWithFormat:VKPLocalized(@"iOS version: %@\nTweak version: %@\nVK App version: %@ (%@)"),
             ios_version, productBundleVersion, app_version, applicationBuildNumber];
-    footerText = [footerText stringByAppendingString:@"\n\n© Daniil Pashin 2018"];
+    footerText = [footerText stringByAppendingString:@"\n\n© shad0wdev 2019"];
     return footerText;
 }
 

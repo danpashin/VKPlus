@@ -64,8 +64,8 @@ void updateMessagesBadge(void)
 
 NSString *defaultUserAgent(void)
 {
-    NSString *appBuildNumber = applicationBuildNumber.copy;
-    if (disableAdultRestriction && userAge >= 18) {
+    NSString *appBuildNumber = applicationBuildNumber;
+    if (disableAdultRestriction) {
         appBuildNumber = @"12";
     }
     

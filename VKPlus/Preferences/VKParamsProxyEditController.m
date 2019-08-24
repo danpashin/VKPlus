@@ -9,7 +9,7 @@
 #import "VKParamsProxyEditController.h"
 #import "VKParamsSelectionCell.h"
 #import "VKParamsTextPrefsCell.h"
-#import "VKParamsNavigationController.h"
+#import <objc/runtime.h>
 
 @interface VKParamsProxyEditController () <VKParamsTextPrefsCellDelegate>
 @property (strong, nonatomic) VKParamsProxyModel *proxyModel;
@@ -74,7 +74,12 @@
 
 - (void)presentFrom:(UIViewController *)controller
 {
-    VKParamsNavigationController *navigation = [[VKParamsNavigationController alloc] initWithRootViewController:self];
+    Class UINavigationControllerClass = objc_lookUpClass("VANavigationController");
+    if (!UINavigationControllerClass) {
+        UINavigationControllerClass = [UINavigationController class];
+    }
+    
+    UINavigationController *navigation = [[UINavigationControllerClass alloc] initWithRootViewController:self];
     navigation.modalPresentationStyle = UIModalPresentationPageSheet;
     [controller presentViewController:navigation animated:YES completion:nil];
 }

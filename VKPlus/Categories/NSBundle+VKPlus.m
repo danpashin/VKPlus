@@ -18,11 +18,7 @@
     dispatch_once(&onceToken, ^{
         
 #ifdef COMPILE_DEB
-        if ([[NSFileManager defaultManager] fileExistsAtPath:@"/var/LIB/MobileSubstrate/DynamicLibraries/VKPlusPlus.dylib"]) {
-            vkp_defaultBundle = [NSBundle bundleWithPath:@"/var/LIB/Application Support/VKPlusPlus.bundle"];
-        } else {
-            vkp_defaultBundle = [NSBundle bundleWithPath:@"/Library/Application Support/VKPlusPlus.bundle"];
-        }
+        vkp_defaultBundle = [NSBundle bundleWithPath:@"/Library/Application Support/VKPlusPlus.bundle"];
 #else
         NSString *path = [[NSBundle mainBundle] pathForResource:@"VKPlusPlus" ofType:@"bundle"];
         vkp_defaultBundle = [NSBundle bundleWithPath:path];

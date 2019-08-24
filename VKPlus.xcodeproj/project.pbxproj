@@ -63,9 +63,6 @@
 		A58B54ED212D877B00B9D644 /* VKParamsProxyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B54EB212D877B00B9D644 /* VKParamsProxyModel.h */; };
 		A58B54EE212D877C00B9D644 /* VKParamsProxyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54EC212D877B00B9D644 /* VKParamsProxyModel.m */; };
 		A58B54EF212D8B0700B9D644 /* VKParamsProxyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54EC212D877B00B9D644 /* VKParamsProxyModel.m */; };
-		A58B54F6212D9D6500B9D644 /* VKParamsNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B54F4212D9D6500B9D644 /* VKParamsNavigationController.h */; };
-		A58B54F7212D9D6500B9D644 /* VKParamsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */; };
-		A58B54F8212DA0DC00B9D644 /* VKParamsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */; };
 		A59B6487215F9DFD00E13DAC /* UITabBarItem+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A59B6485215F9DFD00E13DAC /* UITabBarItem+VKPlus.h */; };
 		A59B6488215F9DFD00E13DAC /* UITabBarItem+VKPlus.h in Headers */ = {isa = PBXBuildFile; fileRef = A59B6485215F9DFD00E13DAC /* UITabBarItem+VKPlus.h */; };
 		A59B6489215F9DFD00E13DAC /* UITabBarItem+VKPlus.m in Sources */ = {isa = PBXBuildFile; fileRef = A59B6486215F9DFD00E13DAC /* UITabBarItem+VKPlus.m */; };
@@ -84,7 +81,6 @@
 		A5B8AA5D21354A85000B5223 /* VKParamsProxyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54EC212D877B00B9D644 /* VKParamsProxyModel.m */; };
 		A5B8AA5E21354A85000B5223 /* VKParamsMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DE384D2122C45400D5C8B6 /* VKParamsMessages.m */; };
 		A5B8AA5F21354A85000B5223 /* VKParamsFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FAE5A42121D359005BB609 /* VKParamsFeed.m */; };
-		A5B8AA6021354A85000B5223 /* SCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02489212FDA800094502D /* SCParser.m */; };
 		A5B8AA6121354A85000B5223 /* VKParamsTabbarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5818A7421245B7700294F13 /* VKParamsTabbarModel.m */; };
 		A5B8AA6221354A85000B5223 /* PSTableCellHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A559E36B211ED80700854784 /* PSTableCellHook.m */; };
 		A5B8AA6321354A85000B5223 /* VKParamsProxyEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05ADE212C70B100CDD7BF /* VKParamsProxyEditController.m */; };
@@ -99,7 +95,6 @@
 		A5B8AA6D21354A85000B5223 /* VKParamsTabbarPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E5D6121254D2A00220D92 /* VKParamsTabbarPrefs.m */; };
 		A5B8AA6E21354A85000B5223 /* VKParamsHostPinger.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02497212FE16D0094502D /* VKParamsHostPinger.m */; };
 		A5B8AA6F21354A85000B5223 /* VKParamsTickView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AEE212C956100CDD7BF /* VKParamsTickView.m */; };
-		A5B8AA7021354A85000B5223 /* VKParamsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */; };
 		A5B8AA7121354A85000B5223 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02486212FDA780094502D /* SimplePing.m */; };
 		A5B8AA7221354A85000B5223 /* VKParamsButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C05AD9212C5B1300CDD7BF /* VKParamsButtonCell.m */; };
 		A5B8AA7321354A85000B5223 /* VKParamsTextPrefsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A58B54E5212D681600B9D644 /* VKParamsTextPrefsCell.m */; };
@@ -122,7 +117,6 @@
 		A5B8AA8721354A85000B5223 /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = A559E36C211ED80700854784 /* PrefixHeader.pch */; };
 		A5B8AA8821354A85000B5223 /* VKParamsTabbarPrefsContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A5E4B5A62125C2AF0075CD14 /* VKParamsTabbarPrefsContext.h */; };
 		A5B8AA8921354A85000B5223 /* VKParamsProxyPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05ACD212C51D100CDD7BF /* VKParamsProxyPrefs.h */; };
-		A5B8AA8A21354A85000B5223 /* SCParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0248A212FDA800094502D /* SCParser.h */; };
 		A5B8AA8B21354A85000B5223 /* VKParamsTabbarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A5818A7321245B7700294F13 /* VKParamsTabbarModel.h */; };
 		A5B8AA8C21354A85000B5223 /* ColoredVKSwiftMenuButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A559E36D211ED80700854784 /* ColoredVKSwiftMenuButton.h */; };
 		A5B8AA8D21354A85000B5223 /* VKParamsMessagesPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A5DE384F2122C74700D5C8B6 /* VKParamsMessagesPrefs.h */; };
@@ -138,7 +132,6 @@
 		A5B8AA9821354A85000B5223 /* VKParamsSelectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AE2212C8A9400CDD7BF /* VKParamsSelectionCell.h */; };
 		A5B8AA9921354A85000B5223 /* VKParamsHostPinger.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F02496212FE16D0094502D /* VKParamsHostPinger.h */; };
 		A5B8AA9A21354A85000B5223 /* VKParamsImages.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AE7212C8B4C00CDD7BF /* VKParamsImages.h */; };
-		A5B8AA9B21354A85000B5223 /* VKParamsNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = A58B54F4212D9D6500B9D644 /* VKParamsNavigationController.h */; };
 		A5B8AA9C21354A85000B5223 /* VKParamsOtherPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = A529D03C2122F299005F4B5B /* VKParamsOtherPrefs.h */; };
 		A5B8AA9D21354A85000B5223 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AC75AC212AEB4100441CDD /* AFNetworking.h */; };
 		A5B8AA9E21354A85000B5223 /* VKParamsButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C05AD8212C5B1300CDD7BF /* VKParamsButtonCell.h */; };
@@ -211,10 +204,7 @@
 		A5E4B5A92125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E4B5A72125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m */; };
 		A5F02487212FDA780094502D /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F02483212FDA780094502D /* SimplePing.h */; };
 		A5F02488212FDA780094502D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02486212FDA780094502D /* SimplePing.m */; };
-		A5F0248B212FDA810094502D /* SCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02489212FDA800094502D /* SCParser.m */; };
-		A5F0248C212FDA810094502D /* SCParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F0248A212FDA800094502D /* SCParser.h */; };
 		A5F0248E212FDDA20094502D /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02486212FDA780094502D /* SimplePing.m */; };
-		A5F02491212FDDA40094502D /* SCParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02489212FDA800094502D /* SCParser.m */; };
 		A5F02498212FE16D0094502D /* VKParamsHostPinger.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F02496212FE16D0094502D /* VKParamsHostPinger.h */; };
 		A5F02499212FE16D0094502D /* VKParamsHostPinger.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02497212FE16D0094502D /* VKParamsHostPinger.m */; };
 		A5F0249A212FE18A0094502D /* VKParamsHostPinger.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F02497212FE16D0094502D /* VKParamsHostPinger.m */; };
@@ -288,8 +278,6 @@
 		A58B54E5212D681600B9D644 /* VKParamsTextPrefsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsTextPrefsCell.m; sourceTree = "<group>"; };
 		A58B54EB212D877B00B9D644 /* VKParamsProxyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsProxyModel.h; sourceTree = "<group>"; };
 		A58B54EC212D877B00B9D644 /* VKParamsProxyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsProxyModel.m; sourceTree = "<group>"; };
-		A58B54F4212D9D6500B9D644 /* VKParamsNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsNavigationController.h; sourceTree = "<group>"; };
-		A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsNavigationController.m; sourceTree = "<group>"; };
 		A59B6485215F9DFD00E13DAC /* UITabBarItem+VKPlus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+VKPlus.h"; sourceTree = "<group>"; };
 		A59B6486215F9DFD00E13DAC /* UITabBarItem+VKPlus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+VKPlus.m"; sourceTree = "<group>"; };
 		A59CC857212DB2000076D328 /* VKParamsProxyPrefsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsProxyPrefsCell.h; sourceTree = "<group>"; };
@@ -350,8 +338,6 @@
 		A5E4B5A72125C2AF0075CD14 /* VKParamsTabbarPrefsContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKParamsTabbarPrefsContext.m; sourceTree = "<group>"; };
 		A5F02483212FDA780094502D /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimplePing.h; path = Support/SimplePing.h; sourceTree = "<group>"; };
 		A5F02486212FDA780094502D /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimplePing.m; path = Support/SimplePing.m; sourceTree = "<group>"; };
-		A5F02489212FDA800094502D /* SCParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SCParser.m; path = Support/SCParser.m; sourceTree = "<group>"; };
-		A5F0248A212FDA800094502D /* SCParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SCParser.h; path = Support/SCParser.h; sourceTree = "<group>"; };
 		A5F02496212FE16D0094502D /* VKParamsHostPinger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VKParamsHostPinger.h; sourceTree = "<group>"; };
 		A5F02497212FE16D0094502D /* VKParamsHostPinger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKParamsHostPinger.m; sourceTree = "<group>"; };
 		A5F0249E212FF2800094502D /* VKPlusPlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VKPlusPlus.bundle; sourceTree = "<group>"; };
@@ -496,8 +482,6 @@
 				A559E36D211ED80700854784 /* ColoredVKSwiftMenuButton.h */,
 				A559E36A211ED80700854784 /* ColoredVKSwiftMenuController.h */,
 				A559E36B211ED80700854784 /* PSTableCellHook.m */,
-				A5F0248A212FDA800094502D /* SCParser.h */,
-				A5F02489212FDA800094502D /* SCParser.m */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -693,8 +677,6 @@
 				A5C05ACE212C51D100CDD7BF /* VKParamsProxyPrefs.m */,
 				A5C05ADD212C70B100CDD7BF /* VKParamsProxyEditController.h */,
 				A5C05ADE212C70B100CDD7BF /* VKParamsProxyEditController.m */,
-				A58B54F4212D9D6500B9D644 /* VKParamsNavigationController.h */,
-				A58B54F5212D9D6500B9D644 /* VKParamsNavigationController.m */,
 			);
 			path = Preferences;
 			sourceTree = "<group>";
@@ -715,7 +697,6 @@
 				A5D34EC42135552A00960FF7 /* UIImage+VKPlus.h in Headers */,
 				A5E4B5A82125C2AF0075CD14 /* VKParamsTabbarPrefsContext.h in Headers */,
 				A5C05ACF212C51D100CDD7BF /* VKParamsProxyPrefs.h in Headers */,
-				A5F0248C212FDA810094502D /* SCParser.h in Headers */,
 				A5818A7521245B7700294F13 /* VKParamsTabbarModel.h in Headers */,
 				A559E371211ED80800854784 /* ColoredVKSwiftMenuButton.h in Headers */,
 				A5DE38512122C74700D5C8B6 /* VKParamsMessagesPrefs.h in Headers */,
@@ -740,7 +721,6 @@
 				A5F02498212FE16D0094502D /* VKParamsHostPinger.h in Headers */,
 				A5CEE9262154FD9300927334 /* VKPlusBlacklist.h in Headers */,
 				A5C05AE9212C8B4C00CDD7BF /* VKParamsImages.h in Headers */,
-				A58B54F6212D9D6500B9D644 /* VKParamsNavigationController.h in Headers */,
 				A529D03E2122F299005F4B5B /* VKParamsOtherPrefs.h in Headers */,
 				A5AC75AD212AEBAA00441CDD /* AFNetworking.h in Headers */,
 				A5D34EDA21357D3F00960FF7 /* VKPlusImageCache.h in Headers */,
@@ -763,7 +743,6 @@
 				A56C821721611A3D003092A6 /* VKPlusPrefsTableView.h in Headers */,
 				A5B8AA8821354A85000B5223 /* VKParamsTabbarPrefsContext.h in Headers */,
 				A5B8AA8921354A85000B5223 /* VKParamsProxyPrefs.h in Headers */,
-				A5B8AA8A21354A85000B5223 /* SCParser.h in Headers */,
 				A5B8AA8B21354A85000B5223 /* VKParamsTabbarModel.h in Headers */,
 				A5B8AA8C21354A85000B5223 /* ColoredVKSwiftMenuButton.h in Headers */,
 				A540F32C2141387800FF5779 /* VKPlusUserModel.h in Headers */,
@@ -786,7 +765,6 @@
 				A5B8AA9821354A85000B5223 /* VKParamsSelectionCell.h in Headers */,
 				A5B8AA9921354A85000B5223 /* VKParamsHostPinger.h in Headers */,
 				A5B8AA9A21354A85000B5223 /* VKParamsImages.h in Headers */,
-				A5B8AA9B21354A85000B5223 /* VKParamsNavigationController.h in Headers */,
 				A59B6488215F9DFD00E13DAC /* UITabBarItem+VKPlus.h in Headers */,
 				A5B8AA9C21354A85000B5223 /* VKParamsOtherPrefs.h in Headers */,
 				A5B8AA9D21354A85000B5223 /* AFNetworking.h in Headers */,
@@ -1060,7 +1038,6 @@
 				A59B6489215F9DFD00E13DAC /* UITabBarItem+VKPlus.m in Sources */,
 				A582CD7021612C450047649B /* UITableViewCell+VKPlus.m in Sources */,
 				A56C821821611A3D003092A6 /* VKPlusPrefsTableView.m in Sources */,
-				A5F0248B212FDA810094502D /* SCParser.m in Sources */,
 				A5DBD76921D7E37600E109FE /* VKParamsFeed.m in Sources */,
 				A5818A7621245B7700294F13 /* VKParamsTabbarModel.m in Sources */,
 				A5CEE9282154FD9300927334 /* VKPlusBlacklist.m in Sources */,
@@ -1082,7 +1059,6 @@
 				A53E5D6321254D2A00220D92 /* VKParamsTabbarPrefs.m in Sources */,
 				A5F02499212FE16D0094502D /* VKParamsHostPinger.m in Sources */,
 				A5C05AF0212C956100CDD7BF /* VKParamsTickView.m in Sources */,
-				A58B54F7212D9D6500B9D644 /* VKParamsNavigationController.m in Sources */,
 				A5F02488212FDA780094502D /* SimplePing.m in Sources */,
 				A5C05ADB212C5B1300CDD7BF /* VKParamsButtonCell.m in Sources */,
 				A540F339214138E300FF5779 /* VKPlusNetwork.m in Sources */,
@@ -1114,7 +1090,6 @@
 				A582CD7121612C450047649B /* UITableViewCell+VKPlus.m in Sources */,
 				A56C821A21611A3D003092A6 /* VKPlusPrefsTableView.m in Sources */,
 				A5B8AA5F21354A85000B5223 /* VKParamsFeed.m in Sources */,
-				A5B8AA6021354A85000B5223 /* SCParser.m in Sources */,
 				A5B8AA6121354A85000B5223 /* VKParamsTabbarModel.m in Sources */,
 				A5CEE9292154FD9300927334 /* VKPlusBlacklist.m in Sources */,
 				A5B8AA6221354A85000B5223 /* PSTableCellHook.m in Sources */,
@@ -1133,7 +1108,6 @@
 				A5B8AA6D21354A85000B5223 /* VKParamsTabbarPrefs.m in Sources */,
 				A5B8AA6E21354A85000B5223 /* VKParamsHostPinger.m in Sources */,
 				A5B8AA6F21354A85000B5223 /* VKParamsTickView.m in Sources */,
-				A5B8AA7021354A85000B5223 /* VKParamsNavigationController.m in Sources */,
 				A5B8AA7121354A85000B5223 /* SimplePing.m in Sources */,
 				A5B8AA7221354A85000B5223 /* VKParamsButtonCell.m in Sources */,
 				A540F33A214138E300FF5779 /* VKPlusNetwork.m in Sources */,
@@ -1173,7 +1147,6 @@
 				A5680A8F21274C3C00B2C802 /* VKParamsSwitchPrefsCell.m in Sources */,
 				A5D34EC72135552A00960FF7 /* UIImage+VKPlus.m in Sources */,
 				A5C05AE6212C8A9400CDD7BF /* VKParamsSelectionCell.m in Sources */,
-				A5F02491212FDDA40094502D /* SCParser.m in Sources */,
 				A5C05AF1212C956100CDD7BF /* VKParamsTickView.m in Sources */,
 				A58B54EA212D68C900B9D644 /* VKParamsTextPrefsCell.m in Sources */,
 				A59CC85D212DB31C0076D328 /* VKParamsProxyPrefsCell.m in Sources */,
@@ -1191,7 +1164,6 @@
 				A5680A8E21274C3C00B2C802 /* VKParamsTabbarPrefs.m in Sources */,
 				A5680A8C21274C3C00B2C802 /* VKParamsOtherPrefs.m in Sources */,
 				A5680A8921274C3C00B2C802 /* VKParamsFeedPrefs.m in Sources */,
-				A58B54F8212DA0DC00B9D644 /* VKParamsNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
