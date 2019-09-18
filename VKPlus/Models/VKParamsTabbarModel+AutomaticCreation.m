@@ -68,7 +68,13 @@ extern NSString *applicationBuildNumber;
 
 + (VKParamsTabbarModel *)discoverModel
 {
-    VKParamsTabbarModel *model = [[VKParamsTabbarModel alloc] initWithTitle:VKPLocalized(@"Recommendations") modelSelector:@"discover"];
+    VKParamsTabbarModel *model = nil;
+    
+    if (applicationBuildNumber.integerValue >= 163)
+        model = [[VKParamsTabbarModel alloc] initWithTitle:VKPLocalized(@"Recommendations") modelSelector:@"discoverWithSearch"];
+    else
+        model = [[VKParamsTabbarModel alloc] initWithTitle:VKPLocalized(@"Recommendations") modelSelector:@"discover"];
+    
     model.imageName = @"tabbar/search";
     model.selectedImageName = @"tabbar/search_active";
     model.iconFromVKApp = YES;
