@@ -70,7 +70,7 @@ extern NSString *applicationBuildNumber;
 {
     VKParamsTabbarModel *model = nil;
     
-    if (applicationBuildNumber.integerValue >= 163)
+    if (applicationBuildNumber.integerValue >= 549)
         model = [[VKParamsTabbarModel alloc] initWithTitle:VKPLocalized(@"Recommendations") modelSelector:@"discoverWithSearch"];
     else
         model = [[VKParamsTabbarModel alloc] initWithTitle:VKPLocalized(@"Recommendations") modelSelector:@"discover"];
