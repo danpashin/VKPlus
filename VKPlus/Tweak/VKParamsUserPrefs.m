@@ -84,10 +84,9 @@ CHConstructor
     }];
 }
 
-void reloadPrefs(void)
+void reloadPrefs(BOOL async)
 {
-    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
-        
+    void (^reloadBlock)(void) = ^{
         NSDictionary *prefs = [NSUserDefaults vkp_standartDefaults].dictionaryRepresentation;
         
 #define UPDATE_BOOL_DEFAULT(boolean, default) boolean = prefs[VKPStringize(boolean)] ? [prefs[VKPStringize(boolean)] boolValue] : default
@@ -174,5 +173,7 @@ void reloadPrefs(void)
         }
         
         updateMessagesBadge();
-    });
+    };
+    
+    async ? dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), reloadBlock) : reloadBlock();
 }

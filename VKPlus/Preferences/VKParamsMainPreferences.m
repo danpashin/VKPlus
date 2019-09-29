@@ -20,7 +20,7 @@
 @end
 
 extern BOOL shouldUpdateTabbar;
-extern void reloadPrefs(void);
+extern void reloadPrefs(BOOL async);
 
 @implementation VKParamsMainPreferences
 
@@ -96,7 +96,7 @@ NSString *applicationBuildNumber = @"0";
 {
     [super viewDidLoad];
     
-    self.title = @"VK++";
+    self.title = @"VKPlus";
 }
 
 - (void)resetPreferences
@@ -108,7 +108,7 @@ NSString *applicationBuildNumber = @"0";
         [NSUserDefaults vkp_resetDefault];
         
         shouldUpdateTabbar = YES;
-        reloadPrefs();
+        reloadPrefs(YES);
     }]];
     [alert present];
 }

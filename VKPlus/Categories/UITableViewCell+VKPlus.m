@@ -18,7 +18,7 @@
     UITableViewCell *cell = [[cellClass alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"vkpSettingsCell"];
     cell.selectionStyle = UITableViewCellSelectionStyleGray;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.textLabel.text = @"VK++";
+    cell.textLabel.text = @"VKPlus";
     cell.textLabel.font = [UIFont systemFontOfSize:[UIFont labelFontSize]];
     
     return cell;

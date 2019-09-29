@@ -10,7 +10,7 @@
 
 extern VKMMainController *vkp_vkMainController;
 
-extern void reloadPrefs(void);
+extern void reloadPrefs(BOOL async);
 
 extern NSURLRequest *requestWithProxyHeader(NSURLRequest *oldRequest);
 extern NSDictionary *defaultProxyDictionary(void);

@@ -1,5 +1,5 @@
 Package: ru.danpashin.vkparams
-Name: VK++
+Name: VKPlus
 Version: CURRENT_PROJECT_VERSION
 Description: Новый VKSettings для VK App 3.x
 Priority: optional

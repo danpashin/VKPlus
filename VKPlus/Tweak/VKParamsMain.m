@@ -22,7 +22,7 @@
 CHDeclareClass(AppDelegate);
 CHDeclareMethod(2, BOOL, AppDelegate, application, UIApplication*, application, didFinishLaunchingWithOptions, NSDictionary *, options)
 {
-   reloadPrefs();
+   reloadPrefs(NO);
    
    BOOL orig = CHSuper(2, AppDelegate, application, application, didFinishLaunchingWithOptions, options);
    return orig;

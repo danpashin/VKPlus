@@ -10,9 +10,9 @@
 #import "VKPlusPrefsTableView.h"
 #import <objc/runtime.h>
 
-extern void reloadPrefs(void);
+extern void reloadPrefs(BOOL async);
 #ifdef COMPILE_APP
-void reloadPrefs(void) {};
+void reloadPrefs(BOOL async) {};
 #endif
 
 @interface VKParamsPreferences () {
@@ -73,7 +73,7 @@ void reloadPrefs(void) {};
 
 - (void)writePrefs:(NSDictionary *)prefs
 {
-    reloadPrefs();
+    reloadPrefs(YES);
 }
 
 

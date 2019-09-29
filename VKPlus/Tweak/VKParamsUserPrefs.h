@@ -8,7 +8,7 @@
 
 @class VKParamsTabbarModel, VKParamsProxyModel;
 
-extern void reloadPrefs(void);
+extern void reloadPrefs(BOOL async);
 
 // ФИДЛЕНТА
 extern BOOL disableAds;

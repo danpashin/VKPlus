@@ -68,7 +68,7 @@ extern long long cachedUnreadMessagesCount;
     
     
     ColoredVKSwiftMenuItemsGroup *group = [[ColoredVKSwiftMenuItemsGroupClass alloc] initWithButtons:@[resetSettingsItem, presentPrefsItem]];
-    group.name = @"VK++";
+    group.name = @"VKPlus";
     [swiftMenuController.itemsGroups addObject:group];
     
     return YES;
@@ -144,7 +144,7 @@ extern long long cachedUnreadMessagesCount;
         [NSUserDefaults vkp_resetDefault];
         
         shouldUpdateTabbar = YES;
-        reloadPrefs();
+        reloadPrefs(YES);
     }]];
     [alert present];
 }
