@@ -135,18 +135,26 @@ CHDeclareMethod(2, void, AFJSONRequestOperation, setCompletionBlockWithSuccess, 
 }
 
 CHDeclareClass(HTTPClient);
-CHDeclareMethod(1, id, HTTPClient, dataTaskWithRequest, HTTPRequest *, request)
+CHDeclareMethod(1, id, HTTPClient, dataTaskWithRequest, id, request)
 {
-   if (dontReadMessages && [request.url containsString:@"messages.markAsRead"]) {
+   NSString *url = nil;
+   if ([request respondsToSelector:@selector(url)]) {
+      url = [(HTTPRequest *)request url];
+   } else if ([request respondsToSelector:@selector(URL)]) {
+      url = [request URL].absoluteString;
+   }
+   
+   if (dontReadMessages && [url containsString:@"messages.markAsRead"]) {
       return nil;
    }
    
-   if (![request.url containsString:@"apps.getVkApps"]) {
+   if (![url containsString:@"apps.getVkApps"] && [request isKindOfClass:objc_lookUpClass("HTTPRequest")]) {
+      HTTPRequest *httpRequest = request;
       NSMutableDictionary *mutableHeaders = [NSMutableDictionary dictionary];
-      [mutableHeaders addEntriesFromDictionary:request.headers];
+      [mutableHeaders addEntriesFromDictionary:httpRequest.headers];
 
       mutableHeaders[@"User-Agent"] = defaultUserAgent();
-      request.headers = mutableHeaders;
+      httpRequest.headers = mutableHeaders;
    }
    
    return CHSuper(1, HTTPClient, dataTaskWithRequest, request);
