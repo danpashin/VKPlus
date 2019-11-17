@@ -48,8 +48,13 @@ BOOL disableAdultRestriction = NO;
 BOOL bypassBlacklist = NO;
 
 //  МУЗЫКА
+#ifdef COMPILE_BUNDLE
+BOOL bypassMusicBlock = YES;
+BOOL disableMusicLimit = YES;
+#else 
 BOOL bypassMusicBlock = NO;
 BOOL disableMusicLimit = NO;
+#endif
 
 // ТАББАР
 NSDictionary <NSNumber *, VKParamsTabbarModel *> *tabbarModels;

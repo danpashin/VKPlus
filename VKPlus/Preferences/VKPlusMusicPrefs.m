@@ -8,9 +8,8 @@
 
 #import "VKPlusMusicPrefs.h"
 
-@interface VKPlusMusicPrefs ()
-
-@end
+extern BOOL bypassMusicBlock;
+extern BOOL disableMusicLimit;
 
 @implementation VKPlusMusicPrefs
 
@@ -21,12 +20,12 @@
                                                       @{@"cellType":@"group",
                                                         @"footerText": @"Bypass_music_block_footer"
                                                         },
-                                                      @{@"cellType":@"Switch", @"label":@"Bypass music block", @"key":@"bypassMusicBlock", @"default":@NO
+                                                      @{@"cellType":@"Switch", @"label":@"Bypass music block", @"key":@"bypassMusicBlock", @"default":@(bypassMusicBlock)
                                                         },
                                                       @{@"cellType":@"group",
                                                         @"footerText": @"Disable_30_minute_limit_footer"
                                                         },
-                                                      @{@"cellType":@"Switch", @"label":@"Disable 30 minute limit", @"key":@"disableMusicLimit", @"default":@NO
+                                                      @{@"cellType":@"Switch", @"label":@"Disable 30 minute limit", @"key":@"disableMusicLimit", @"default":@(disableMusicLimit)
                                                         }
                                                       ]];
     }

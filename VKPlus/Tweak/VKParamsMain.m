@@ -148,13 +148,20 @@ CHDeclareMethod(1, id, HTTPClient, dataTaskWithRequest, id, request)
       return nil;
    }
    
-   if (![url containsString:@"apps.getVkApps"] && [request isKindOfClass:objc_lookUpClass("HTTPRequest")]) {
-      HTTPRequest *httpRequest = request;
+   if (![url.lowercaseString containsString:@"apps"]) {
       NSMutableDictionary *mutableHeaders = [NSMutableDictionary dictionary];
-      [mutableHeaders addEntriesFromDictionary:httpRequest.headers];
-
-      mutableHeaders[@"User-Agent"] = defaultUserAgent();
-      httpRequest.headers = mutableHeaders;
+      if ([request isKindOfClass:objc_lookUpClass("HTTPRequest")]) {
+         HTTPRequest *httpRequest = request;
+         [mutableHeaders addEntriesFromDictionary:httpRequest.headers];
+         mutableHeaders[@"User-Agent"] = defaultUserAgent();
+         httpRequest.headers = mutableHeaders;
+      } else {
+         NSMutableURLRequest *_request = [request mutableCopy];
+         [mutableHeaders addEntriesFromDictionary:_request.allHTTPHeaderFields];
+         mutableHeaders[@"User-Agent"] = defaultUserAgent();
+         _request.allHTTPHeaderFields = mutableHeaders;
+         request = _request;
+      }
    }
    
    return CHSuper(1, HTTPClient, dataTaskWithRequest, request);

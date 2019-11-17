@@ -15,25 +15,17 @@
 {
     self = [super initWithStyle:style reuseIdentifier:identifier specifier:specifier];
     if (self) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            CAGradientLayer *gradientLayer = [CAGradientLayer layer];
-            gradientLayer.frame = self.titleLabel.bounds;
-            gradientLayer.colors = @[(id)VKParamsImages.mainColor.CGColor, 
-                                     (id)VKParamsImages.secondaryColor.CGColor];
-            gradientLayer.startPoint = CGPointMake(0.5f, 1.0f);
-            gradientLayer.endPoint = CGPointMake(0.5f, 0);
-            
-            UIGraphicsBeginImageContextWithOptions(self.titleLabel.frame.size, NO, [UIScreen mainScreen].scale);
-            [gradientLayer renderInContext:UIGraphicsGetCurrentContext()];
-            UIImage *gradientImage = UIGraphicsGetImageFromCurrentImageContext();
-            UIGraphicsEndImageContext();
-            self.titleLabel.textColor = [UIColor colorWithPatternImage:gradientImage];
-        });
-        
-        UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(userTapped)];
-        [self addGestureRecognizer:tapRecognizer];
+        self.titleLabel.textColor = VKParamsImages.mainColor;
     }
     return self;
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated
+{
+    [super setSelected:selected animated:animated];
+    
+    if (selected)
+        [self userTapped];
 }
 
 - (void)userTapped
